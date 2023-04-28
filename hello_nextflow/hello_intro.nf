@@ -48,6 +48,11 @@ workflow workflow_pipe {
         | flatten
         | CONVERTTOUPPER 
         | view
+
+    // or assign result channel with:
+    //  | set { mych }
+    // then:
+    // mych.view()
 }
 
 workflow workflow_mixed {
