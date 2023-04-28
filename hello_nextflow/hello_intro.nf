@@ -32,8 +32,24 @@ process CONVERTTOUPPER {
 } 
 
 workflow { 
+
+    /*
     letters_ch = SPLITLETTERS(greeting_ch) 
+    
+    letters_ch.view()
+    letters_ch.flatten().view()
+
     results_ch = CONVERTTOUPPER(letters_ch.flatten()) 
-    results_ch.view { it } 
+    results_ch.view()
+    */
+
+    // pipe notation
+
+    Channel.of('Hello world!') 
+        | SPLITLETTERS 
+        | flatten 
+        | CONVERTTOUPPER 
+        | view
+
 } 
 
