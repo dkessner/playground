@@ -1,9 +1,7 @@
 #!/usr/bin/env nextflow
 
-// https://training.nextflow.io/basic_training/intro/#nextflow-code
-
-params.greeting = 'Hello world!' 
-greeting_ch = Channel.of(params.greeting) 
+// reference:
+//   https://training.nextflow.io/basic_training/intro/#nextflow-code
 
 process SPLITLETTERS { 
     input: 
@@ -31,25 +29,41 @@ process CONVERTTOUPPER {
     """
 } 
 
-workflow { 
+workflow workflow_function { 
 
-    /*
+    // function notation
+
+    greeting_ch = Channel.of('Hello world!') 
     letters_ch = SPLITLETTERS(greeting_ch) 
-    
-    letters_ch.view()
-    letters_ch.flatten().view()
-
     results_ch = CONVERTTOUPPER(letters_ch.flatten()) 
     results_ch.view()
-    */
+}
+
+workflow workflow_pipe {
 
     // pipe notation
 
-    Channel.of('Hello world!') 
+    Channel.of('!Hola mundo!') 
         | SPLITLETTERS 
-        | flatten 
+        | flatten
         | CONVERTTOUPPER 
         | view
+}
 
+workflow workflow_mixed {
+
+    // pipe notation for processes,
+    // function notation for operators
+
+    ch = Channel.of('Ca va monde!') | SPLITLETTERS 
+    ch2 = ch.flatten() | CONVERTTOUPPER 
+    ch2.view()
 } 
+
+workflow {
+    workflow_function()
+    workflow_pipe()
+    workflow_mixed()
+}
+
 
