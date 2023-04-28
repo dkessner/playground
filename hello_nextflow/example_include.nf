@@ -1,10 +1,18 @@
+#!/usr/bin/env nextflow
+
+// 
+// example_include.nf
+//
+
+// note: the first 'include' runs all code in hello.nf, but the
+// second 'include' does not
 
 println "before include 1"
-include { templateExample as foo } from './example_template.nf'
+include { doSomething as foo } from './hello.nf'
 println "after include 1"
 
 println "before include 2"
-include { templateExample2 as bar } from './example_template.nf'
+include { doSomething2 as bar } from './hello.nf'
 println "after include 2"
 
 workflow {

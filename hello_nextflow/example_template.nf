@@ -1,5 +1,8 @@
+#!/usr/bin/env nextflow
 
-println "hello from the top of example_template.nf"
+//
+// example_template.nf
+//
 
 process templateExample {
     input:
@@ -9,25 +12,10 @@ process templateExample {
     stdout
 
     script:
-    template 'my_script.sh'
+    template 'my_script.sh' // note: nextflow searches 'templates' folder
 }
-
-process templateExample2 {
-    input:
-    val STR
-
-    output:
-    stdout
-
-    script:
-    template 'my_script.sh'
-}
-
 
 workflow {
     Channel.of('this', 'that') | templateExample | view
 }
-
-
-println "hello from the bottom of example_template.nf"
 

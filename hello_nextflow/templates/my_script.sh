@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "process started at `date`"
-echo $STR
-echo "process completed"
+echo "[my_script.sh] process started at `date`"
+echo "[my_script.sh] $STR"
+echo "[my_script.sh] process completed"
