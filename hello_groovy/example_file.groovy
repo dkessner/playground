@@ -1,6 +1,6 @@
 
 def number = 0;
-new File("Ball.java").eachLine { line ->
+new File("quick_brown_fox.txt").eachLine { line ->
     number++;
     println "$number: $line"
 }
