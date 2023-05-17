@@ -6,7 +6,6 @@ println "test"
 def numbers = 1..10
 numbers.each {println it}
 
-
 public class HelloProcessing extends PApplet
 {
     public void settings()
@@ -17,7 +16,7 @@ public class HelloProcessing extends PApplet
     public void setup()
     {
         for (i in 1..20)
-            balls add new Ball(this)
+            balls.add new Ball(this)
     }
 
     public void draw()
