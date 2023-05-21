@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-// examples from print version of "Groovy In Action"
+// examples from "Groovy In Action"
 
 String greeting = 'Hello, Groovy!'
 
