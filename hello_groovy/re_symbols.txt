@@ -1,0 +1,44 @@
+.
+^
+$
+\d
+\D
+\s
+\S
+\w
+\W
+\b
+()
+( x | y ) 
+\1
+x*
+x+
+x? 
+x{m,n} 
+x{m} 
+[a-f] 
+[^a] 
+(?is:x)
+
+Any character
+Start of line (or start of document, when in single-line mode)
+End of line (or end of document, when in single-line mode)
+Digit character
+Any character except digits
+Whitespace character
+Any character except whitespace
+Word character
+Any character except word characters
+Word boundary
+Grouping
+x or y, as in (Groovy|Java|Ruby)
+Backmatch to group one; for example, find doubled characters with (.)\1
+Zero or more occurrences of x
+One or more occurrences of x
+Zero or one occurrence of x
+At least m and at most n occurrences of x
+Exactly m occurrences of x
+Character class containing the characters a, b, c, d, e, f
+Character class containing any character except a
+Switches mode when evaluating x; i turns on ignoreCase, s means single- line mode
+
