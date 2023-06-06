@@ -9,7 +9,7 @@ nextflow.enable.dsl=2
 ========================================================================================
 */
 
-params.input = "$HOME/dev/nextflow_varcal/data/untrimmed_fastq/SRR*.fastq.gz"
+params.input = "../repo/data/untrimmed_fastq/SRR*.fastq.gz"
 
 /*
 ========================================================================================
