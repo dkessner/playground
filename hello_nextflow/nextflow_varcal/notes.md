@@ -5,3 +5,12 @@
 [Sateesh Peri](https://github.com/sateeshperi)
 
 
+## notes
+
+Echo stdout:
+'''
+nextflow run -process.echo
+'''
+
+
+

@@ -21,5 +21,6 @@ def ref_genome_path = "../repo/data/ref_genome/ecoli_rel606.fasta"
 workflow {
     ref_genome_ch = Channel.fromPath(ref_genome_path)
     BWA_INDEX(ref_genome_ch)
+    BWA_INDEX.out.view()
 }
 
