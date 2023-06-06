@@ -4,6 +4,7 @@
 [repo](https://github.com/sateeshperi/nextflow_varcal)
 [Sateesh Peri](https://github.com/sateeshperi)
 
+[Nextflow patterns](https://nextflow-io.github.io/patterns/)
 
 ## notes
 

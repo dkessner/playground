@@ -3,6 +3,13 @@
 nextflow.enable.dsl=2
 
 process BWA_INDEX {
+
+    // optional directives
+    tag {"BWA_INDEX $ref_genome"}
+    label 'my_process'
+    cpus 1
+
+    publishDir "results/bwa_index", mode: "copy"
     
     input:
     path ref_genome
