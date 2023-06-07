@@ -44,7 +44,14 @@ workflow {
 
     FASTQC( reads_ch )
     BWA_INDEX( ref_ch )
-    BWA_ALIGN( BWA_INDEX.out.bwa_index.combine(reads_ch) ) // https://www.nextflow.io/docs/latest/process.html#understand-how-multiple-input-channels-work
+    
+    // error!
+    // def temp_ch = BWA_INDEX.out.bwa_index.combine(reads_ch)
+
+    def temp_ch
+    temp_ch = BWA_INDEX.out.bwa_index.combine(reads_ch)
+
+    BWA_ALIGN( temp_ch ) // https://www.nextflow.io/docs/latest/process.html#understand-how-multiple-input-channels-work
     SAMTOOLS_SORT( BWA_ALIGN.out.aligned_bam )
     // Enter the rest of the processes for variant calling based on the bash script below
 
@@ -108,7 +115,7 @@ process BWA_ALIGN {
     publishDir("${params.outdir}/bwa_align", mode: 'copy')
 
     input:
-    tuple path( genome ), path( "*" ), val( sample_id ), path( reads )
+    tuple path( genome ), path( blah ), val( sample_id ), path( reads )
 
     output:
     tuple val( sample_id ), path( "${sample_id}.aligned.bam" ), emit: aligned_bam
