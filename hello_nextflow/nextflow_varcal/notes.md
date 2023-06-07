@@ -4,6 +4,11 @@
 [repo](https://github.com/sateeshperi/nextflow_varcal)
 [Sateesh Peri](https://github.com/sateeshperi)
 
+## ideas
+
+- use file objects for "value-like" queue channels (e.g. reference genome)
+    https://bioinformatics.stackexchange.com/questions/20686/why-does-this-nextflow-script-finish-after-running-one-sample
+
 ## further research
 
 [Nextflow patterns](https://nextflow-io.github.io/patterns/)
