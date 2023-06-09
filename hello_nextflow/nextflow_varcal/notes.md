@@ -10,6 +10,10 @@ dependencies:
     bcftools
     fastqc
 
+## useful
+
+[csv handling](https://training.nextflow.io/basic_training/channels/#comma-separate-values-csv)
+
 ## further research
 
 [Nextflow patterns](https://nextflow-io.github.io/patterns/)
