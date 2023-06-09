@@ -41,20 +41,16 @@ reads_ch = Channel.fromFilePairs( params.reads, checkIfExists: true )
 */
 
 workflow {
-
-    FASTQC( reads_ch )
-    BWA_INDEX( ref_ch )
+    FASTQC(reads_ch)
+    BWA_INDEX(ref_ch)
     
-    // error!
-    // def temp_ch = BWA_INDEX.out.bwa_index.combine(reads_ch)
+    index_reads_ch = BWA_INDEX.out.bwa_index.combine(reads_ch)
+    BWA_ALIGN(index_reads_ch) 
 
-    def temp_ch
-    temp_ch = BWA_INDEX.out.bwa_index.combine(reads_ch)
+    SAMTOOLS_SORT(BWA_ALIGN.out.aligned_bam)
 
-    BWA_ALIGN( temp_ch ) // https://www.nextflow.io/docs/latest/process.html#understand-how-multiple-input-channels-work
-    SAMTOOLS_SORT( BWA_ALIGN.out.aligned_bam )
+    SAMTOOLS_INDEX(SAMTOOLS_SORT.out.sorted_bam)
     // Enter the rest of the processes for variant calling based on the bash script below
-
 }
 
 /*
@@ -154,10 +150,21 @@ process SAMTOOLS_SORT {
  */
 process SAMTOOLS_INDEX {
 
-    script:
-    """
-        tag{"SAMTOOLS_INDEX"}
-    """
+  tag{"SAMTOOLS_INDEX ${sample_id}"}
+  label 'process_low'
+
+  publishDir("${params.outdir}/bam_align", mode: 'copy')
+
+  input:
+  tuple val(sample_id), path(sorted_bam)
+
+  output:
+  tuple val(sample_id), path("${sample_id}.aligned.sorted.bam.bai"), emit: sorted_bam
+
+  script:
+  """
+    samtools index $sorted_bam
+  """
 }
 
 /*
