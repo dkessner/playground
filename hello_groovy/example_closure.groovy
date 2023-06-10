@@ -15,3 +15,11 @@ println "fast: $fast"
 
 assert fast * 2 < slow
 
+def paramCount(Closure c) {c.getParameterTypes()}
+
+println paramCount { String s -> }
+println paramCount { String s, int n -> }
+println paramCount { String s, Integer n -> }
+println paramCount { String s, def n -> }
+println paramCount {}
+
