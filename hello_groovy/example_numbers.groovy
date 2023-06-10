@@ -1,5 +1,23 @@
 #!/usr/bin/env groovy
 
+def a = 1
+println "a: $a " + a.class.name
+assert a instanceof Integer
+
+def b = 3g
+println "b: $b " + b.class.name
+assert b instanceof BigInteger
+
+def c = .1
+println "c: $c " + c.class.name
+assert c instanceof BigDecimal
+
+def d = a/b
+println "d: $d " + d.class.name
+assert d instanceof BigDecimal
+
+println()
+
 // number methods:
 //   times
 //   upto
