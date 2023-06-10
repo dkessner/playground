@@ -11,5 +11,5 @@ def p(int n)
     return result
 }
 
-25.times {println it + " " + p(it).trunc(2)}
+1.upto(25) {println it + " " + p(it).trunc(2)}
 
