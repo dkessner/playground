@@ -1,5 +1,6 @@
 #!/usr/bin/env nextflow
 
+nextflow.enable.dsl=2
 
 process doSomething {
 
@@ -35,7 +36,7 @@ process doSort {
 
 
 workflow {
-    ch = Channel.of("The", "quick", "brown", "fox")
+    ch = Channel.of("the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog")
     
     result = doSomething(ch) 
     result | collect | doSort | flatten | view
