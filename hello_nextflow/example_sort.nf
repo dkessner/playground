@@ -38,6 +38,6 @@ workflow {
     ch = Channel.of("The", "quick", "brown", "fox")
     
     result = doSomething(ch) 
-    result | collect | doSort | view
+    result | collect | doSort | flatten | view
 }
 
