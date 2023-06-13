@@ -7,27 +7,36 @@
 // https://www.nextflow.io/docs/latest/process.html#outputs
 
 process randomNum {
-  output:
-  path 'random_num.txt'
 
-  '''
-  echo $RANDOM > random_num.txt
-  '''
+    publishDir 'results'
+
+    output:
+    path 'random_num.txt'
+
+    '''
+    echo $RANDOM > random_num.txt
+    '''
 }
 
 
 process foo {
-  output:
-  tuple path('foo1.txt'), path('foo2.txt', hidden: true)
 
-  '''
-  echo 'another new line' >> foo1.txt
-  echo 'another new line' > foo2.txt
-  '''
+    publishDir 'results'
+
+    output:
+    tuple path('foo1.txt'), path('foo2.txt', hidden: true)
+
+    '''
+    echo 'another new line' >> foo1.txt
+    echo 'another new line' > foo2.txt
+    '''
 }
 
 
 process splitLetters {
+
+    publishDir 'results'
+
     output:
     path 'chunk_*'
 
@@ -43,7 +52,9 @@ workflow one {
 
 
 workflow two {
-    foo | flatten | view { "File: ${it.name} => ${it.text}" }
+    foo 
+    | flatten 
+    | view { "File: ${it.name} => ${it.text}" }
 }
 
 
