@@ -1,5 +1,7 @@
 #!/usr/bin/env groovy
 
+// from Groovy in Action
+
 // slashy strings
 
 assert "abc" == /abc/
@@ -34,3 +36,16 @@ assert wordsByX == 'x x x x x x x x x x'
 def words = twister.split(/ /)
 assert words.size() == 10
 assert words[0] == 'she'
+
+// other stuff
+
+def pattern = '.*/'
+
+def text = '666/TheQuickBrownFox'
+println "text: $text"
+println "replaced text: " + text.replaceAll(pattern, '')
+// GString notation with closure:
+println "replaced text: ${text.replaceAll(pattern, '')}" 
+
+
+
