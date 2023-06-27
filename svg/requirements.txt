@@ -1,0 +1,2 @@
+CairoSVG
+drawsvg~=2.0
