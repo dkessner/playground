@@ -11,6 +11,7 @@
 }
 
 .img-overlay-wrap .svg {
+  max-width: 100%;
   position: absolute;
   top: 0;
   left: 0;
