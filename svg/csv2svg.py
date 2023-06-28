@@ -32,8 +32,9 @@ with open('test.csv') as csvfile:
         h = int(y_end)-int(y)
         
         r = drawsvg.Rectangle(x, y, w, h, 
-                              stroke='green' if live else 'red', 
-                              fill_opacity=0)
+                              stroke = 'green' if live else 'red', 
+                              stroke_width = 3,
+                              fill_opacity = 0)
         r.append_title(str(number) + " " + predict)
         d.append(r)
 

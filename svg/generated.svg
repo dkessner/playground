@@ -3,763 +3,763 @@
      width="1086" height="1086" viewBox="0 0 1086 1086">
 <defs>
 </defs>
-<rect x="600" y="997" width="13" height="9" stroke="green" fill-opacity="0">
+<rect x="600" y="997" width="13" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>1 Live</title>
 </rect>
-<rect x="706" y="993" width="29" height="15" stroke="green" fill-opacity="0">
+<rect x="706" y="993" width="29" height="15" stroke="green" stroke-width="3" fill-opacity="0">
 <title>2 Live</title>
 </rect>
-<rect x="589" y="984" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="589" y="984" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>3 Live</title>
 </rect>
-<rect x="411" y="948" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="411" y="948" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>4 Live</title>
 </rect>
-<rect x="252" y="929" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="252" y="929" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>5 Live</title>
 </rect>
-<rect x="298" y="923" width="39" height="36" stroke="green" fill-opacity="0">
+<rect x="298" y="923" width="39" height="36" stroke="green" stroke-width="3" fill-opacity="0">
 <title>6 Live</title>
 </rect>
-<rect x="397" y="929" width="21" height="14" stroke="red" fill-opacity="0">
+<rect x="397" y="929" width="21" height="14" stroke="red" stroke-width="3" fill-opacity="0">
 <title>7 Dead</title>
 </rect>
-<rect x="385" y="914" width="45" height="34" stroke="red" fill-opacity="0">
+<rect x="385" y="914" width="45" height="34" stroke="red" stroke-width="3" fill-opacity="0">
 <title>8 Dead</title>
 </rect>
-<rect x="1023" y="903" width="14" height="10" stroke="green" fill-opacity="0">
+<rect x="1023" y="903" width="14" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>9 Live</title>
 </rect>
-<rect x="458" y="898" width="26" height="25" stroke="green" fill-opacity="0">
+<rect x="458" y="898" width="26" height="25" stroke="green" stroke-width="3" fill-opacity="0">
 <title>10 Live</title>
 </rect>
-<rect x="516" y="888" width="35" height="33" stroke="green" fill-opacity="0">
+<rect x="516" y="888" width="35" height="33" stroke="green" stroke-width="3" fill-opacity="0">
 <title>11 Live</title>
 </rect>
-<rect x="406" y="884" width="8" height="9" stroke="green" fill-opacity="0">
+<rect x="406" y="884" width="8" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>12 Live</title>
 </rect>
-<rect x="617" y="881" width="50" height="53" stroke="green" fill-opacity="0">
+<rect x="617" y="881" width="50" height="53" stroke="green" stroke-width="3" fill-opacity="0">
 <title>13 Live</title>
 </rect>
-<rect x="837" y="877" width="46" height="79" stroke="green" fill-opacity="0">
+<rect x="837" y="877" width="46" height="79" stroke="green" stroke-width="3" fill-opacity="0">
 <title>14 Live</title>
 </rect>
-<rect x="723" y="875" width="16" height="10" stroke="green" fill-opacity="0">
+<rect x="723" y="875" width="16" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>15 Live</title>
 </rect>
-<rect x="920" y="869" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="920" y="869" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>16 Live</title>
 </rect>
-<rect x="610" y="869" width="21" height="11" stroke="red" fill-opacity="0">
+<rect x="610" y="869" width="21" height="11" stroke="red" stroke-width="3" fill-opacity="0">
 <title>17 Dead</title>
 </rect>
-<rect x="593" y="863" width="10" height="7" stroke="green" fill-opacity="0">
+<rect x="593" y="863" width="10" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>18 Live</title>
 </rect>
-<rect x="901" y="861" width="17" height="11" stroke="red" fill-opacity="0">
+<rect x="901" y="861" width="17" height="11" stroke="red" stroke-width="3" fill-opacity="0">
 <title>19 Dead</title>
 </rect>
-<rect x="445" y="844" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="445" y="844" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>20 Live</title>
 </rect>
-<rect x="192" y="851" width="21" height="23" stroke="red" fill-opacity="0">
+<rect x="192" y="851" width="21" height="23" stroke="red" stroke-width="3" fill-opacity="0">
 <title>21 Dead</title>
 </rect>
-<rect x="194" y="832" width="26" height="22" stroke="red" fill-opacity="0">
+<rect x="194" y="832" width="26" height="22" stroke="red" stroke-width="3" fill-opacity="0">
 <title>22 Dead</title>
 </rect>
-<rect x="397" y="828" width="9" height="8" stroke="green" fill-opacity="0">
+<rect x="397" y="828" width="9" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>23 Live</title>
 </rect>
-<rect x="610" y="821" width="20" height="20" stroke="green" fill-opacity="0">
+<rect x="610" y="821" width="20" height="20" stroke="green" stroke-width="3" fill-opacity="0">
 <title>24 Live</title>
 </rect>
-<rect x="750" y="820" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="750" y="820" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>25 Live</title>
 </rect>
-<rect x="538" y="812" width="33" height="34" stroke="green" fill-opacity="0">
+<rect x="538" y="812" width="33" height="34" stroke="green" stroke-width="3" fill-opacity="0">
 <title>26 Live</title>
 </rect>
-<rect x="897" y="810" width="10" height="16" stroke="red" fill-opacity="0">
+<rect x="897" y="810" width="10" height="16" stroke="red" stroke-width="3" fill-opacity="0">
 <title>27 Dead</title>
 </rect>
-<rect x="752" y="810" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="752" y="810" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>28 Live</title>
 </rect>
-<rect x="462" y="797" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="462" y="797" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>29 Live</title>
 </rect>
-<rect x="918" y="795" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="918" y="795" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>30 Live</title>
 </rect>
-<rect x="661" y="793" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="661" y="793" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>31 Live</title>
 </rect>
-<rect x="496" y="793" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="496" y="793" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>32 Live</title>
 </rect>
-<rect x="1037" y="791" width="15" height="9" stroke="green" fill-opacity="0">
+<rect x="1037" y="791" width="15" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>33 Live</title>
 </rect>
-<rect x="814" y="791" width="10" height="11" stroke="green" fill-opacity="0">
+<rect x="814" y="791" width="10" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>34 Live</title>
 </rect>
-<rect x="1009" y="788" width="20" height="14" stroke="green" fill-opacity="0">
+<rect x="1009" y="788" width="20" height="14" stroke="green" stroke-width="3" fill-opacity="0">
 <title>35 Live</title>
 </rect>
-<rect x="306" y="784" width="13" height="14" stroke="green" fill-opacity="0">
+<rect x="306" y="784" width="13" height="14" stroke="green" stroke-width="3" fill-opacity="0">
 <title>36 Live</title>
 </rect>
-<rect x="876" y="776" width="34" height="39" stroke="green" fill-opacity="0">
+<rect x="876" y="776" width="34" height="39" stroke="green" stroke-width="3" fill-opacity="0">
 <title>37 Live</title>
 </rect>
-<rect x="1071" y="766" width="14" height="13" stroke="green" fill-opacity="0">
+<rect x="1071" y="766" width="14" height="13" stroke="green" stroke-width="3" fill-opacity="0">
 <title>38 Live</title>
 </rect>
-<rect x="580" y="763" width="19" height="18" stroke="green" fill-opacity="0">
+<rect x="580" y="763" width="19" height="18" stroke="green" stroke-width="3" fill-opacity="0">
 <title>39 Live</title>
 </rect>
-<rect x="733" y="761" width="14" height="13" stroke="green" fill-opacity="0">
+<rect x="733" y="761" width="14" height="13" stroke="green" stroke-width="3" fill-opacity="0">
 <title>40 Live</title>
 </rect>
-<rect x="632" y="759" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="632" y="759" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>41 Live</title>
 </rect>
-<rect x="110" y="757" width="7" height="9" stroke="green" fill-opacity="0">
+<rect x="110" y="757" width="7" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>42 Live</title>
 </rect>
-<rect x="1068" y="749" width="18" height="15" stroke="green" fill-opacity="0">
+<rect x="1068" y="749" width="18" height="15" stroke="green" stroke-width="3" fill-opacity="0">
 <title>43 Live</title>
 </rect>
-<rect x="880" y="744" width="8" height="9" stroke="green" fill-opacity="0">
+<rect x="880" y="744" width="8" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>44 Live</title>
 </rect>
-<rect x="93" y="738" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="93" y="738" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>45 Live</title>
 </rect>
-<rect x="223" y="737" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="223" y="737" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>46 Live</title>
 </rect>
-<rect x="322" y="734" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="322" y="734" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>47 Live</title>
 </rect>
-<rect x="877" y="732" width="8" height="9" stroke="green" fill-opacity="0">
+<rect x="877" y="732" width="8" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>48 Live</title>
 </rect>
-<rect x="839" y="729" width="9" height="8" stroke="green" fill-opacity="0">
+<rect x="839" y="729" width="9" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>49 Live</title>
 </rect>
-<rect x="1056" y="724" width="15" height="17" stroke="green" fill-opacity="0">
+<rect x="1056" y="724" width="15" height="17" stroke="green" stroke-width="3" fill-opacity="0">
 <title>50 Live</title>
 </rect>
-<rect x="239" y="718" width="33" height="33" stroke="green" fill-opacity="0">
+<rect x="239" y="718" width="33" height="33" stroke="green" stroke-width="3" fill-opacity="0">
 <title>51 Live</title>
 </rect>
-<rect x="352" y="715" width="17" height="17" stroke="red" fill-opacity="0">
+<rect x="352" y="715" width="17" height="17" stroke="red" stroke-width="3" fill-opacity="0">
 <title>52 Dead</title>
 </rect>
-<rect x="1072" y="714" width="11" height="12" stroke="green" fill-opacity="0">
+<rect x="1072" y="714" width="11" height="12" stroke="green" stroke-width="3" fill-opacity="0">
 <title>53 Live</title>
 </rect>
-<rect x="540" y="722" width="34" height="28" stroke="green" fill-opacity="0">
+<rect x="540" y="722" width="34" height="28" stroke="green" stroke-width="3" fill-opacity="0">
 <title>54 Live</title>
 </rect>
-<rect x="519" y="709" width="23" height="20" stroke="green" fill-opacity="0">
+<rect x="519" y="709" width="23" height="20" stroke="green" stroke-width="3" fill-opacity="0">
 <title>55 Live</title>
 </rect>
-<rect x="398" y="703" width="51" height="67" stroke="green" fill-opacity="0">
+<rect x="398" y="703" width="51" height="67" stroke="green" stroke-width="3" fill-opacity="0">
 <title>56 Live</title>
 </rect>
-<rect x="369" y="699" width="21" height="21" stroke="green" fill-opacity="0">
+<rect x="369" y="699" width="21" height="21" stroke="green" stroke-width="3" fill-opacity="0">
 <title>57 Live</title>
 </rect>
-<rect x="849" y="698" width="19" height="18" stroke="green" fill-opacity="0">
+<rect x="849" y="698" width="19" height="18" stroke="green" stroke-width="3" fill-opacity="0">
 <title>58 Live</title>
 </rect>
-<rect x="765" y="696" width="20" height="18" stroke="red" fill-opacity="0">
+<rect x="765" y="696" width="20" height="18" stroke="red" stroke-width="3" fill-opacity="0">
 <title>59 Dead</title>
 </rect>
-<rect x="428" y="682" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="428" y="682" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>60 Live</title>
 </rect>
-<rect x="162" y="680" width="18" height="16" stroke="green" fill-opacity="0">
+<rect x="162" y="680" width="18" height="16" stroke="green" stroke-width="3" fill-opacity="0">
 <title>61 Live</title>
 </rect>
-<rect x="547" y="674" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="547" y="674" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>62 Live</title>
 </rect>
-<rect x="558" y="672" width="29" height="20" stroke="green" fill-opacity="0">
+<rect x="558" y="672" width="29" height="20" stroke="green" stroke-width="3" fill-opacity="0">
 <title>63 Live</title>
 </rect>
-<rect x="935" y="668" width="27" height="37" stroke="green" fill-opacity="0">
+<rect x="935" y="668" width="27" height="37" stroke="green" stroke-width="3" fill-opacity="0">
 <title>64 Live</title>
 </rect>
-<rect x="0" y="667" width="15" height="15" stroke="red" fill-opacity="0">
+<rect x="0" y="667" width="15" height="15" stroke="red" stroke-width="3" fill-opacity="0">
 <title>65 Dead</title>
 </rect>
-<rect x="593" y="666" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="593" y="666" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>66 Live</title>
 </rect>
-<rect x="57" y="665" width="9" height="10" stroke="red" fill-opacity="0">
+<rect x="57" y="665" width="9" height="10" stroke="red" stroke-width="3" fill-opacity="0">
 <title>67 Dead</title>
 </rect>
-<rect x="407" y="657" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="407" y="657" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>68 Live</title>
 </rect>
-<rect x="606" y="653" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="606" y="653" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>69 Live</title>
 </rect>
-<rect x="172" y="653" width="9" height="7" stroke="green" fill-opacity="0">
+<rect x="172" y="653" width="9" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>70 Live</title>
 </rect>
-<rect x="1081" y="652" width="5" height="12" stroke="red" fill-opacity="0">
+<rect x="1081" y="652" width="5" height="12" stroke="red" stroke-width="3" fill-opacity="0">
 <title>71 Dead</title>
 </rect>
-<rect x="714" y="652" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="714" y="652" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>72 Live</title>
 </rect>
-<rect x="307" y="651" width="28" height="26" stroke="green" fill-opacity="0">
+<rect x="307" y="651" width="28" height="26" stroke="green" stroke-width="3" fill-opacity="0">
 <title>73 Live</title>
 </rect>
-<rect x="108" y="648" width="16" height="18" stroke="green" fill-opacity="0">
+<rect x="108" y="648" width="16" height="18" stroke="green" stroke-width="3" fill-opacity="0">
 <title>74 Live</title>
 </rect>
-<rect x="42" y="647" width="8" height="7" stroke="red" fill-opacity="0">
+<rect x="42" y="647" width="8" height="7" stroke="red" stroke-width="3" fill-opacity="0">
 <title>75 Dead</title>
 </rect>
-<rect x="835" y="640" width="9" height="7" stroke="green" fill-opacity="0">
+<rect x="835" y="640" width="9" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>76 Live</title>
 </rect>
-<rect x="768" y="636" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="768" y="636" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>77 Live</title>
 </rect>
-<rect x="528" y="636" width="32" height="32" stroke="green" fill-opacity="0">
+<rect x="528" y="636" width="32" height="32" stroke="green" stroke-width="3" fill-opacity="0">
 <title>78 Live</title>
 </rect>
-<rect x="911" y="634" width="8" height="8" stroke="green" fill-opacity="0">
+<rect x="911" y="634" width="8" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>79 Live</title>
 </rect>
-<rect x="473" y="633" width="42" height="38" stroke="green" fill-opacity="0">
+<rect x="473" y="633" width="42" height="38" stroke="green" stroke-width="3" fill-opacity="0">
 <title>80 Live</title>
 </rect>
-<rect x="700" y="632" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="700" y="632" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>81 Live</title>
 </rect>
-<rect x="943" y="629" width="20" height="23" stroke="green" fill-opacity="0">
+<rect x="943" y="629" width="20" height="23" stroke="green" stroke-width="3" fill-opacity="0">
 <title>82 Live</title>
 </rect>
-<rect x="231" y="623" width="27" height="29" stroke="green" fill-opacity="0">
+<rect x="231" y="623" width="27" height="29" stroke="green" stroke-width="3" fill-opacity="0">
 <title>83 Live</title>
 </rect>
-<rect x="996" y="621" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="996" y="621" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>84 Live</title>
 </rect>
-<rect x="356" y="619" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="356" y="619" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>85 Live</title>
 </rect>
-<rect x="964" y="618" width="35" height="43" stroke="green" fill-opacity="0">
+<rect x="964" y="618" width="35" height="43" stroke="green" stroke-width="3" fill-opacity="0">
 <title>86 Live</title>
 </rect>
-<rect x="534" y="611" width="11" height="11" stroke="green" fill-opacity="0">
+<rect x="534" y="611" width="11" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>87 Live</title>
 </rect>
-<rect x="284" y="610" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="284" y="610" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>88 Live</title>
 </rect>
-<rect x="402" y="608" width="8" height="8" stroke="green" fill-opacity="0">
+<rect x="402" y="608" width="8" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>89 Live</title>
 </rect>
-<rect x="572" y="598" width="14" height="18" stroke="green" fill-opacity="0">
+<rect x="572" y="598" width="14" height="18" stroke="green" stroke-width="3" fill-opacity="0">
 <title>90 Live</title>
 </rect>
-<rect x="364" y="596" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="364" y="596" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>91 Live</title>
 </rect>
-<rect x="1022" y="585" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="1022" y="585" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>92 Live</title>
 </rect>
-<rect x="77" y="585" width="14" height="14" stroke="red" fill-opacity="0">
+<rect x="77" y="585" width="14" height="14" stroke="red" stroke-width="3" fill-opacity="0">
 <title>93 Dead</title>
 </rect>
-<rect x="233" y="577" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="233" y="577" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>94 Live</title>
 </rect>
-<rect x="536" y="576" width="9" height="9" stroke="red" fill-opacity="0">
+<rect x="536" y="576" width="9" height="9" stroke="red" stroke-width="3" fill-opacity="0">
 <title>95 Dead</title>
 </rect>
-<rect x="355" y="576" width="8" height="12" stroke="green" fill-opacity="0">
+<rect x="355" y="576" width="8" height="12" stroke="green" stroke-width="3" fill-opacity="0">
 <title>96 Live</title>
 </rect>
-<rect x="453" y="575" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="453" y="575" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>97 Live</title>
 </rect>
-<rect x="183" y="575" width="15" height="14" stroke="red" fill-opacity="0">
+<rect x="183" y="575" width="15" height="14" stroke="red" stroke-width="3" fill-opacity="0">
 <title>98 Dead</title>
 </rect>
-<rect x="613" y="574" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="613" y="574" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>99 Live</title>
 </rect>
-<rect x="887" y="570" width="60" height="50" stroke="green" fill-opacity="0">
+<rect x="887" y="570" width="60" height="50" stroke="green" stroke-width="3" fill-opacity="0">
 <title>100 Live</title>
 </rect>
-<rect x="725" y="562" width="18" height="17" stroke="green" fill-opacity="0">
+<rect x="725" y="562" width="18" height="17" stroke="green" stroke-width="3" fill-opacity="0">
 <title>101 Live</title>
 </rect>
-<rect x="664" y="562" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="664" y="562" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>102 Live</title>
 </rect>
-<rect x="228" y="562" width="9" height="11" stroke="green" fill-opacity="0">
+<rect x="228" y="562" width="9" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>103 Live</title>
 </rect>
-<rect x="93" y="553" width="39" height="33" stroke="red" fill-opacity="0">
+<rect x="93" y="553" width="39" height="33" stroke="red" stroke-width="3" fill-opacity="0">
 <title>104 Dead</title>
 </rect>
-<rect x="267" y="551" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="267" y="551" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>105 Live</title>
 </rect>
-<rect x="481" y="547" width="18" height="20" stroke="green" fill-opacity="0">
+<rect x="481" y="547" width="18" height="20" stroke="green" stroke-width="3" fill-opacity="0">
 <title>106 Live</title>
 </rect>
-<rect x="527" y="546" width="23" height="20" stroke="green" fill-opacity="0">
+<rect x="527" y="546" width="23" height="20" stroke="green" stroke-width="3" fill-opacity="0">
 <title>107 Live</title>
 </rect>
-<rect x="1022" y="536" width="64" height="60" stroke="green" fill-opacity="0">
+<rect x="1022" y="536" width="64" height="60" stroke="green" stroke-width="3" fill-opacity="0">
 <title>108 Live</title>
 </rect>
-<rect x="282" y="533" width="13" height="15" stroke="red" fill-opacity="0">
+<rect x="282" y="533" width="13" height="15" stroke="red" stroke-width="3" fill-opacity="0">
 <title>109 Dead</title>
 </rect>
-<rect x="1022" y="530" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="1022" y="530" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>110 Live</title>
 </rect>
-<rect x="805" y="530" width="8" height="9" stroke="green" fill-opacity="0">
+<rect x="805" y="530" width="8" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>111 Live</title>
 </rect>
-<rect x="623" y="530" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="623" y="530" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>112 Live</title>
 </rect>
-<rect x="509" y="530" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="509" y="530" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>113 Live</title>
 </rect>
-<rect x="262" y="530" width="16" height="14" stroke="green" fill-opacity="0">
+<rect x="262" y="530" width="16" height="14" stroke="green" stroke-width="3" fill-opacity="0">
 <title>114 Live</title>
 </rect>
-<rect x="760" y="523" width="19" height="17" stroke="green" fill-opacity="0">
+<rect x="760" y="523" width="19" height="17" stroke="green" stroke-width="3" fill-opacity="0">
 <title>115 Live</title>
 </rect>
-<rect x="358" y="519" width="41" height="32" stroke="green" fill-opacity="0">
+<rect x="358" y="519" width="41" height="32" stroke="green" stroke-width="3" fill-opacity="0">
 <title>116 Live</title>
 </rect>
-<rect x="456" y="517" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="456" y="517" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>117 Live</title>
 </rect>
-<rect x="175" y="513" width="23" height="18" stroke="green" fill-opacity="0">
+<rect x="175" y="513" width="23" height="18" stroke="green" stroke-width="3" fill-opacity="0">
 <title>118 Live</title>
 </rect>
-<rect x="335" y="507" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="335" y="507" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>119 Live</title>
 </rect>
-<rect x="402" y="504" width="8" height="9" stroke="green" fill-opacity="0">
+<rect x="402" y="504" width="8" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>120 Live</title>
 </rect>
-<rect x="829" y="502" width="22" height="18" stroke="green" fill-opacity="0">
+<rect x="829" y="502" width="22" height="18" stroke="green" stroke-width="3" fill-opacity="0">
 <title>121 Live</title>
 </rect>
-<rect x="768" y="500" width="15" height="13" stroke="green" fill-opacity="0">
+<rect x="768" y="500" width="15" height="13" stroke="green" stroke-width="3" fill-opacity="0">
 <title>122 Live</title>
 </rect>
-<rect x="208" y="508" width="10" height="11" stroke="green" fill-opacity="0">
+<rect x="208" y="508" width="10" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>123 Live</title>
 </rect>
-<rect x="198" y="502" width="10" height="13" stroke="green" fill-opacity="0">
+<rect x="198" y="502" width="10" height="13" stroke="green" stroke-width="3" fill-opacity="0">
 <title>124 Live</title>
 </rect>
-<rect x="1063" y="518" width="8" height="14" stroke="green" fill-opacity="0">
+<rect x="1063" y="518" width="8" height="14" stroke="green" stroke-width="3" fill-opacity="0">
 <title>125 Live</title>
 </rect>
-<rect x="1074" y="497" width="12" height="33" stroke="green" fill-opacity="0">
+<rect x="1074" y="497" width="12" height="33" stroke="green" stroke-width="3" fill-opacity="0">
 <title>126 Live</title>
 </rect>
-<rect x="168" y="492" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="168" y="492" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>127 Live</title>
 </rect>
-<rect x="1052" y="488" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="1052" y="488" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>128 Live</title>
 </rect>
-<rect x="721" y="475" width="20" height="22" stroke="green" fill-opacity="0">
+<rect x="721" y="475" width="20" height="22" stroke="green" stroke-width="3" fill-opacity="0">
 <title>129 Live</title>
 </rect>
-<rect x="892" y="468" width="18" height="20" stroke="red" fill-opacity="0">
+<rect x="892" y="468" width="18" height="20" stroke="red" stroke-width="3" fill-opacity="0">
 <title>130 Dead</title>
 </rect>
-<rect x="319" y="468" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="319" y="468" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>131 Live</title>
 </rect>
-<rect x="462" y="462" width="45" height="48" stroke="green" fill-opacity="0">
+<rect x="462" y="462" width="45" height="48" stroke="green" stroke-width="3" fill-opacity="0">
 <title>132 Live</title>
 </rect>
-<rect x="569" y="457" width="9" height="8" stroke="green" fill-opacity="0">
+<rect x="569" y="457" width="9" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>133 Live</title>
 </rect>
-<rect x="117" y="452" width="22" height="15" stroke="red" fill-opacity="0">
+<rect x="117" y="452" width="22" height="15" stroke="red" stroke-width="3" fill-opacity="0">
 <title>134 Dead</title>
 </rect>
-<rect x="967" y="451" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="967" y="451" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>135 Live</title>
 </rect>
-<rect x="413" y="449" width="20" height="17" stroke="green" fill-opacity="0">
+<rect x="413" y="449" width="20" height="17" stroke="green" stroke-width="3" fill-opacity="0">
 <title>136 Live</title>
 </rect>
-<rect x="778" y="448" width="9" height="8" stroke="green" fill-opacity="0">
+<rect x="778" y="448" width="9" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>137 Live</title>
 </rect>
-<rect x="205" y="436" width="10" height="9" stroke="green" fill-opacity="0">
+<rect x="205" y="436" width="10" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>138 Live</title>
 </rect>
-<rect x="899" y="435" width="9" height="15" stroke="red" fill-opacity="0">
+<rect x="899" y="435" width="9" height="15" stroke="red" stroke-width="3" fill-opacity="0">
 <title>139 Dead</title>
 </rect>
-<rect x="276" y="430" width="25" height="19" stroke="green" fill-opacity="0">
+<rect x="276" y="430" width="25" height="19" stroke="green" stroke-width="3" fill-opacity="0">
 <title>140 Live</title>
 </rect>
-<rect x="748" y="428" width="18" height="17" stroke="green" fill-opacity="0">
+<rect x="748" y="428" width="18" height="17" stroke="green" stroke-width="3" fill-opacity="0">
 <title>141 Live</title>
 </rect>
-<rect x="515" y="428" width="13" height="18" stroke="green" fill-opacity="0">
+<rect x="515" y="428" width="13" height="18" stroke="green" stroke-width="3" fill-opacity="0">
 <title>142 Live</title>
 </rect>
-<rect x="209" y="428" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="209" y="428" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>143 Live</title>
 </rect>
-<rect x="79" y="478" width="37" height="35" stroke="red" fill-opacity="0">
+<rect x="79" y="478" width="37" height="35" stroke="red" stroke-width="3" fill-opacity="0">
 <title>144 Dead</title>
 </rect>
-<rect x="80" y="475" width="20" height="14" stroke="red" fill-opacity="0">
+<rect x="80" y="475" width="20" height="14" stroke="red" stroke-width="3" fill-opacity="0">
 <title>145 Dead</title>
 </rect>
-<rect x="53" y="431" width="52" height="44" stroke="red" fill-opacity="0">
+<rect x="53" y="431" width="52" height="44" stroke="red" stroke-width="3" fill-opacity="0">
 <title>146 Dead</title>
 </rect>
-<rect x="390" y="424" width="15" height="16" stroke="green" fill-opacity="0">
+<rect x="390" y="424" width="15" height="16" stroke="green" stroke-width="3" fill-opacity="0">
 <title>147 Live</title>
 </rect>
-<rect x="498" y="422" width="11" height="10" stroke="red" fill-opacity="0">
+<rect x="498" y="422" width="11" height="10" stroke="red" stroke-width="3" fill-opacity="0">
 <title>148 Dead</title>
 </rect>
-<rect x="356" y="419" width="16" height="17" stroke="green" fill-opacity="0">
+<rect x="356" y="419" width="16" height="17" stroke="green" stroke-width="3" fill-opacity="0">
 <title>149 Live</title>
 </rect>
-<rect x="763" y="416" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="763" y="416" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>150 Live</title>
 </rect>
-<rect x="550" y="416" width="9" height="8" stroke="green" fill-opacity="0">
+<rect x="550" y="416" width="9" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>151 Live</title>
 </rect>
-<rect x="343" y="416" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="343" y="416" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>152 Live</title>
 </rect>
-<rect x="808" y="415" width="41" height="46" stroke="green" fill-opacity="0">
+<rect x="808" y="415" width="41" height="46" stroke="green" stroke-width="3" fill-opacity="0">
 <title>153 Live</title>
 </rect>
-<rect x="619" y="409" width="29" height="28" stroke="green" fill-opacity="0">
+<rect x="619" y="409" width="29" height="28" stroke="green" stroke-width="3" fill-opacity="0">
 <title>154 Live</title>
 </rect>
-<rect x="653" y="408" width="24" height="22" stroke="green" fill-opacity="0">
+<rect x="653" y="408" width="24" height="22" stroke="green" stroke-width="3" fill-opacity="0">
 <title>155 Live</title>
 </rect>
-<rect x="1081" y="400" width="5" height="10" stroke="green" fill-opacity="0">
+<rect x="1081" y="400" width="5" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>156 Live</title>
 </rect>
-<rect x="87" y="396" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="87" y="396" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>157 Live</title>
 </rect>
-<rect x="449" y="395" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="449" y="395" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>158 Live</title>
 </rect>
-<rect x="829" y="386" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="829" y="386" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>159 Live</title>
 </rect>
-<rect x="511" y="386" width="37" height="37" stroke="green" fill-opacity="0">
+<rect x="511" y="386" width="37" height="37" stroke="green" stroke-width="3" fill-opacity="0">
 <title>160 Live</title>
 </rect>
-<rect x="323" y="380" width="10" height="10" stroke="green" fill-opacity="0">
+<rect x="323" y="380" width="10" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>161 Live</title>
 </rect>
-<rect x="899" y="376" width="7" height="11" stroke="green" fill-opacity="0">
+<rect x="899" y="376" width="7" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>162 Live</title>
 </rect>
-<rect x="946" y="375" width="19" height="33" stroke="green" fill-opacity="0">
+<rect x="946" y="375" width="19" height="33" stroke="green" stroke-width="3" fill-opacity="0">
 <title>163 Live</title>
 </rect>
-<rect x="428" y="370" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="428" y="370" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>164 Live</title>
 </rect>
-<rect x="487" y="369" width="12" height="11" stroke="green" fill-opacity="0">
+<rect x="487" y="369" width="12" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>165 Live</title>
 </rect>
-<rect x="725" y="356" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="725" y="356" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>166 Live</title>
 </rect>
-<rect x="489" y="353" width="12" height="8" stroke="green" fill-opacity="0">
+<rect x="489" y="353" width="12" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>167 Live</title>
 </rect>
-<rect x="132" y="377" width="15" height="10" stroke="red" fill-opacity="0">
+<rect x="132" y="377" width="15" height="10" stroke="red" stroke-width="3" fill-opacity="0">
 <title>168 Dead</title>
 </rect>
-<rect x="114" y="353" width="9" height="10" stroke="green" fill-opacity="0">
+<rect x="114" y="353" width="9" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>169 Live</title>
 </rect>
-<rect x="104" y="346" width="50" height="29" stroke="red" fill-opacity="0">
+<rect x="104" y="346" width="50" height="29" stroke="red" stroke-width="3" fill-opacity="0">
 <title>170 Dead</title>
 </rect>
-<rect x="1002" y="335" width="21" height="16" stroke="green" fill-opacity="0">
+<rect x="1002" y="335" width="21" height="16" stroke="green" stroke-width="3" fill-opacity="0">
 <title>171 Live</title>
 </rect>
-<rect x="40" y="335" width="38" height="32" stroke="red" fill-opacity="0">
+<rect x="40" y="335" width="38" height="32" stroke="red" stroke-width="3" fill-opacity="0">
 <title>172 Dead</title>
 </rect>
-<rect x="937" y="327" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="937" y="327" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>173 Live</title>
 </rect>
-<rect x="356" y="326" width="68" height="51" stroke="green" fill-opacity="0">
+<rect x="356" y="326" width="68" height="51" stroke="green" stroke-width="3" fill-opacity="0">
 <title>174 Live</title>
 </rect>
-<rect x="428" y="324" width="13" height="16" stroke="green" fill-opacity="0">
+<rect x="428" y="324" width="13" height="16" stroke="green" stroke-width="3" fill-opacity="0">
 <title>175 Live</title>
 </rect>
-<rect x="513" y="322" width="14" height="22" stroke="green" fill-opacity="0">
+<rect x="513" y="322" width="14" height="22" stroke="green" stroke-width="3" fill-opacity="0">
 <title>176 Live</title>
 </rect>
-<rect x="587" y="317" width="18" height="17" stroke="green" fill-opacity="0">
+<rect x="587" y="317" width="18" height="17" stroke="green" stroke-width="3" fill-opacity="0">
 <title>177 Live</title>
 </rect>
-<rect x="101" y="312" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="101" y="312" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>178 Live</title>
 </rect>
-<rect x="305" y="309" width="42" height="39" stroke="green" fill-opacity="0">
+<rect x="305" y="309" width="42" height="39" stroke="green" stroke-width="3" fill-opacity="0">
 <title>179 Live</title>
 </rect>
-<rect x="609" y="305" width="47" height="37" stroke="green" fill-opacity="0">
+<rect x="609" y="305" width="47" height="37" stroke="green" stroke-width="3" fill-opacity="0">
 <title>180 Live</title>
 </rect>
-<rect x="142" y="304" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="142" y="304" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>181 Live</title>
 </rect>
-<rect x="415" y="298" width="29" height="21" stroke="green" fill-opacity="0">
+<rect x="415" y="298" width="29" height="21" stroke="green" stroke-width="3" fill-opacity="0">
 <title>182 Live</title>
 </rect>
-<rect x="666" y="288" width="12" height="14" stroke="green" fill-opacity="0">
+<rect x="666" y="288" width="12" height="14" stroke="green" stroke-width="3" fill-opacity="0">
 <title>183 Live</title>
 </rect>
-<rect x="732" y="282" width="9" height="10" stroke="green" fill-opacity="0">
+<rect x="732" y="282" width="9" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>184 Live</title>
 </rect>
-<rect x="956" y="280" width="18" height="20" stroke="green" fill-opacity="0">
+<rect x="956" y="280" width="18" height="20" stroke="green" stroke-width="3" fill-opacity="0">
 <title>185 Live</title>
 </rect>
-<rect x="513" y="273" width="30" height="27" stroke="green" fill-opacity="0">
+<rect x="513" y="273" width="30" height="27" stroke="green" stroke-width="3" fill-opacity="0">
 <title>186 Live</title>
 </rect>
-<rect x="999" y="271" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="999" y="271" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>187 Live</title>
 </rect>
-<rect x="875" y="267" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="875" y="267" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>188 Live</title>
 </rect>
-<rect x="322" y="266" width="17" height="20" stroke="red" fill-opacity="0">
+<rect x="322" y="266" width="17" height="20" stroke="red" stroke-width="3" fill-opacity="0">
 <title>189 Dead</title>
 </rect>
-<rect x="416" y="263" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="416" y="263" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>190 Live</title>
 </rect>
-<rect x="679" y="258" width="12" height="10" stroke="green" fill-opacity="0">
+<rect x="679" y="258" width="12" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>191 Live</title>
 </rect>
-<rect x="1080" y="255" width="6" height="10" stroke="green" fill-opacity="0">
+<rect x="1080" y="255" width="6" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>192 Live</title>
 </rect>
-<rect x="298" y="250" width="22" height="24" stroke="green" fill-opacity="0">
+<rect x="298" y="250" width="22" height="24" stroke="green" stroke-width="3" fill-opacity="0">
 <title>193 Live</title>
 </rect>
-<rect x="163" y="250" width="26" height="22" stroke="green" fill-opacity="0">
+<rect x="163" y="250" width="26" height="22" stroke="green" stroke-width="3" fill-opacity="0">
 <title>194 Live</title>
 </rect>
-<rect x="604" y="248" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="604" y="248" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>195 Live</title>
 </rect>
-<rect x="529" y="235" width="40" height="35" stroke="green" fill-opacity="0">
+<rect x="529" y="235" width="40" height="35" stroke="green" stroke-width="3" fill-opacity="0">
 <title>196 Live</title>
 </rect>
-<rect x="456" y="235" width="9" height="7" stroke="green" fill-opacity="0">
+<rect x="456" y="235" width="9" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>197 Live</title>
 </rect>
-<rect x="1011" y="232" width="40" height="37" stroke="green" fill-opacity="0">
+<rect x="1011" y="232" width="40" height="37" stroke="green" stroke-width="3" fill-opacity="0">
 <title>198 Live</title>
 </rect>
-<rect x="79" y="257" width="52" height="52" stroke="red" fill-opacity="0">
+<rect x="79" y="257" width="52" height="52" stroke="red" stroke-width="3" fill-opacity="0">
 <title>199 Dead</title>
 </rect>
-<rect x="61" y="234" width="40" height="33" stroke="red" fill-opacity="0">
+<rect x="61" y="234" width="40" height="33" stroke="red" stroke-width="3" fill-opacity="0">
 <title>200 Dead</title>
 </rect>
-<rect x="940" y="220" width="10" height="10" stroke="green" fill-opacity="0">
+<rect x="940" y="220" width="10" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>201 Live</title>
 </rect>
-<rect x="891" y="217" width="14" height="14" stroke="red" fill-opacity="0">
+<rect x="891" y="217" width="14" height="14" stroke="red" stroke-width="3" fill-opacity="0">
 <title>202 Dead</title>
 </rect>
-<rect x="744" y="227" width="11" height="13" stroke="green" fill-opacity="0">
+<rect x="744" y="227" width="11" height="13" stroke="green" stroke-width="3" fill-opacity="0">
 <title>203 Live</title>
 </rect>
-<rect x="747" y="221" width="15" height="11" stroke="green" fill-opacity="0">
+<rect x="747" y="221" width="15" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>204 Live</title>
 </rect>
-<rect x="719" y="218" width="22" height="24" stroke="green" fill-opacity="0">
+<rect x="719" y="218" width="22" height="24" stroke="green" stroke-width="3" fill-opacity="0">
 <title>205 Live</title>
 </rect>
-<rect x="749" y="215" width="10" height="6" stroke="green" fill-opacity="0">
+<rect x="749" y="215" width="10" height="6" stroke="green" stroke-width="3" fill-opacity="0">
 <title>206 Live</title>
 </rect>
-<rect x="866" y="211" width="16" height="15" stroke="green" fill-opacity="0">
+<rect x="866" y="211" width="16" height="15" stroke="green" stroke-width="3" fill-opacity="0">
 <title>207 Live</title>
 </rect>
-<rect x="165" y="209" width="47" height="36" stroke="green" fill-opacity="0">
+<rect x="165" y="209" width="47" height="36" stroke="green" stroke-width="3" fill-opacity="0">
 <title>208 Live</title>
 </rect>
-<rect x="229" y="203" width="10" height="11" stroke="green" fill-opacity="0">
+<rect x="229" y="203" width="10" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>209 Live</title>
 </rect>
-<rect x="813" y="199" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="813" y="199" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>210 Live</title>
 </rect>
-<rect x="594" y="199" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="594" y="199" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>211 Live</title>
 </rect>
-<rect x="282" y="193" width="9" height="9" stroke="green" fill-opacity="0">
+<rect x="282" y="193" width="9" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>212 Live</title>
 </rect>
-<rect x="599" y="185" width="78" height="64" stroke="green" fill-opacity="0">
+<rect x="599" y="185" width="78" height="64" stroke="green" stroke-width="3" fill-opacity="0">
 <title>213 Live</title>
 </rect>
-<rect x="110" y="171" width="7" height="9" stroke="red" fill-opacity="0">
+<rect x="110" y="171" width="7" height="9" stroke="red" stroke-width="3" fill-opacity="0">
 <title>214 Dead</title>
 </rect>
-<rect x="281" y="170" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="281" y="170" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>215 Live</title>
 </rect>
-<rect x="179" y="169" width="19" height="19" stroke="green" fill-opacity="0">
+<rect x="179" y="169" width="19" height="19" stroke="green" stroke-width="3" fill-opacity="0">
 <title>216 Live</title>
 </rect>
-<rect x="360" y="167" width="35" height="30" stroke="green" fill-opacity="0">
+<rect x="360" y="167" width="35" height="30" stroke="green" stroke-width="3" fill-opacity="0">
 <title>217 Live</title>
 </rect>
-<rect x="833" y="163" width="12" height="9" stroke="red" fill-opacity="0">
+<rect x="833" y="163" width="12" height="9" stroke="red" stroke-width="3" fill-opacity="0">
 <title>218 Dead</title>
 </rect>
-<rect x="403" y="163" width="33" height="27" stroke="green" fill-opacity="0">
+<rect x="403" y="163" width="33" height="27" stroke="green" stroke-width="3" fill-opacity="0">
 <title>219 Live</title>
 </rect>
-<rect x="120" y="175" width="20" height="14" stroke="red" fill-opacity="0">
+<rect x="120" y="175" width="20" height="14" stroke="red" stroke-width="3" fill-opacity="0">
 <title>220 Dead</title>
 </rect>
-<rect x="115" y="159" width="14" height="23" stroke="red" fill-opacity="0">
+<rect x="115" y="159" width="14" height="23" stroke="red" stroke-width="3" fill-opacity="0">
 <title>221 Dead</title>
 </rect>
-<rect x="668" y="149" width="17" height="13" stroke="green" fill-opacity="0">
+<rect x="668" y="149" width="17" height="13" stroke="green" stroke-width="3" fill-opacity="0">
 <title>222 Live</title>
 </rect>
-<rect x="780" y="140" width="12" height="13" stroke="red" fill-opacity="0">
+<rect x="780" y="140" width="12" height="13" stroke="red" stroke-width="3" fill-opacity="0">
 <title>223 Dead</title>
 </rect>
-<rect x="419" y="168" width="17" height="32" stroke="green" fill-opacity="0">
+<rect x="419" y="168" width="17" height="32" stroke="green" stroke-width="3" fill-opacity="0">
 <title>224 Live</title>
 </rect>
-<rect x="457" y="141" width="49" height="60" stroke="red" fill-opacity="0">
+<rect x="457" y="141" width="49" height="60" stroke="red" stroke-width="3" fill-opacity="0">
 <title>225 Dead</title>
 </rect>
-<rect x="419" y="136" width="6" height="10" stroke="green" fill-opacity="0">
+<rect x="419" y="136" width="6" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>226 Live</title>
 </rect>
-<rect x="426" y="134" width="29" height="26" stroke="green" fill-opacity="0">
+<rect x="426" y="134" width="29" height="26" stroke="green" stroke-width="3" fill-opacity="0">
 <title>227 Live</title>
 </rect>
-<rect x="277" y="143" width="10" height="10" stroke="green" fill-opacity="0">
+<rect x="277" y="143" width="10" height="10" stroke="green" stroke-width="3" fill-opacity="0">
 <title>228 Live</title>
 </rect>
-<rect x="279" y="127" width="28" height="33" stroke="red" fill-opacity="0">
+<rect x="279" y="127" width="28" height="33" stroke="red" stroke-width="3" fill-opacity="0">
 <title>229 Dead</title>
 </rect>
-<rect x="180" y="118" width="10" height="18" stroke="red" fill-opacity="0">
+<rect x="180" y="118" width="10" height="18" stroke="red" stroke-width="3" fill-opacity="0">
 <title>230 Dead</title>
 </rect>
-<rect x="180" y="112" width="43" height="56" stroke="red" fill-opacity="0">
+<rect x="180" y="112" width="43" height="56" stroke="red" stroke-width="3" fill-opacity="0">
 <title>231 Dead</title>
 </rect>
-<rect x="458" y="100" width="34" height="26" stroke="red" fill-opacity="0">
+<rect x="458" y="100" width="34" height="26" stroke="red" stroke-width="3" fill-opacity="0">
 <title>232 Dead</title>
 </rect>
-<rect x="853" y="105" width="47" height="29" stroke="red" fill-opacity="0">
+<rect x="853" y="105" width="47" height="29" stroke="red" stroke-width="3" fill-opacity="0">
 <title>233 Dead</title>
 </rect>
-<rect x="872" y="88" width="27" height="23" stroke="red" fill-opacity="0">
+<rect x="872" y="88" width="27" height="23" stroke="red" stroke-width="3" fill-opacity="0">
 <title>234 Dead</title>
 </rect>
-<rect x="700" y="87" width="11" height="9" stroke="green" fill-opacity="0">
+<rect x="700" y="87" width="11" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>235 Live</title>
 </rect>
-<rect x="677" y="87" width="43" height="44" stroke="green" fill-opacity="0">
+<rect x="677" y="87" width="43" height="44" stroke="green" stroke-width="3" fill-opacity="0">
 <title>236 Live</title>
 </rect>
-<rect x="446" y="85" width="15" height="9" stroke="green" fill-opacity="0">
+<rect x="446" y="85" width="15" height="9" stroke="green" stroke-width="3" fill-opacity="0">
 <title>237 Live</title>
 </rect>
-<rect x="810" y="84" width="17" height="12" stroke="green" fill-opacity="0">
+<rect x="810" y="84" width="17" height="12" stroke="green" stroke-width="3" fill-opacity="0">
 <title>238 Live</title>
 </rect>
-<rect x="322" y="84" width="34" height="26" stroke="green" fill-opacity="0">
+<rect x="322" y="84" width="34" height="26" stroke="green" stroke-width="3" fill-opacity="0">
 <title>239 Live</title>
 </rect>
-<rect x="353" y="68" width="37" height="22" stroke="green" fill-opacity="0">
+<rect x="353" y="68" width="37" height="22" stroke="green" stroke-width="3" fill-opacity="0">
 <title>240 Live</title>
 </rect>
-<rect x="789" y="62" width="8" height="9" stroke="red" fill-opacity="0">
+<rect x="789" y="62" width="8" height="9" stroke="red" stroke-width="3" fill-opacity="0">
 <title>241 Dead</title>
 </rect>
-<rect x="320" y="50" width="28" height="21" stroke="green" fill-opacity="0">
+<rect x="320" y="50" width="28" height="21" stroke="green" stroke-width="3" fill-opacity="0">
 <title>242 Live</title>
 </rect>
-<rect x="294" y="44" width="8" height="7" stroke="green" fill-opacity="0">
+<rect x="294" y="44" width="8" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>243 Live</title>
 </rect>
-<rect x="572" y="39" width="7" height="8" stroke="green" fill-opacity="0">
+<rect x="572" y="39" width="7" height="8" stroke="green" stroke-width="3" fill-opacity="0">
 <title>244 Live</title>
 </rect>
-<rect x="784" y="38" width="8" height="7" stroke="red" fill-opacity="0">
+<rect x="784" y="38" width="8" height="7" stroke="red" stroke-width="3" fill-opacity="0">
 <title>245 Dead</title>
 </rect>
-<rect x="305" y="38" width="7" height="7" stroke="green" fill-opacity="0">
+<rect x="305" y="38" width="7" height="7" stroke="green" stroke-width="3" fill-opacity="0">
 <title>246 Live</title>
 </rect>
-<rect x="355" y="29" width="27" height="24" stroke="red" fill-opacity="0">
+<rect x="355" y="29" width="27" height="24" stroke="red" stroke-width="3" fill-opacity="0">
 <title>247 Dead</title>
 </rect>
-<rect x="587" y="13" width="18" height="11" stroke="green" fill-opacity="0">
+<rect x="587" y="13" width="18" height="11" stroke="green" stroke-width="3" fill-opacity="0">
 <title>248 Live</title>
 </rect>
-<rect x="824" y="16" width="22" height="15" stroke="green" fill-opacity="0">
+<rect x="824" y="16" width="22" height="15" stroke="green" stroke-width="3" fill-opacity="0">
 <title>249 Live</title>
 </rect>
-<rect x="825" y="7" width="10" height="15" stroke="green" fill-opacity="0">
+<rect x="825" y="7" width="10" height="15" stroke="green" stroke-width="3" fill-opacity="0">
 <title>250 Live</title>
 </rect>
-<rect x="656" y="3" width="39" height="36" stroke="green" fill-opacity="0">
+<rect x="656" y="3" width="39" height="36" stroke="green" stroke-width="3" fill-opacity="0">
 <title>251 Live</title>
 </rect>
-<rect x="760" y="11" width="8" height="13" stroke="green" fill-opacity="0">
+<rect x="760" y="11" width="8" height="13" stroke="green" stroke-width="3" fill-opacity="0">
 <title>252 Live</title>
 </rect>
-<rect x="743" y="4" width="25" height="27" stroke="green" fill-opacity="0">
+<rect x="743" y="4" width="25" height="27" stroke="green" stroke-width="3" fill-opacity="0">
 <title>253 Live</title>
 </rect>
 </svg>
