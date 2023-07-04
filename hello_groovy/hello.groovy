@@ -1,4 +1,4 @@
-
+#!/usr/bin/env groovy
 
 // https://www.timroes.de/groovy-tutorial-for-java-developers
 
@@ -41,8 +41,11 @@ list.each {println "value: " + it}
 def even = list.findAll { it%2 == 0 }
 println "even: " + even
 
-def cubed = list.collect { it*it*it }
-println "cubed: " + cubed
+def cubes = list.collect { it*it*it }
+println "cubes: " + cubes
+
+def squaresAndCubes = list.collectMany { [it*it, it*it*it] }
+println "squaresAndCubes: " + squaresAndCubes
 
 def upper = ["Hello", "World"].collect { it.toUpperCase() }
 println "upper: " + upper
