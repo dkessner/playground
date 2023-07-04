@@ -6,8 +6,19 @@
 String.metaClass.double = { delegate.toLowerCase() * 2 }
 println "Hello, World! ".double()
 
+// with input variable
+
 String.metaClass.multiple = { it -> delegate.toLowerCase() * 3 }
 println "Hello, World! ".multiple(3)
+
+// builder notation
+
+String.metaClass {
+    loud {delegate.toUpperCase()}
+    answer = 42
+}
+println "Hello, World!".loud()
+println "answer: " + "Hello, World!".answer
 
 // add pigLatin() to String
 
