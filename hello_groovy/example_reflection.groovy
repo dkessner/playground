@@ -9,4 +9,6 @@ println "field names: ${text.class.declaredFields.name}"
 
 println "text.class.properties: ${text.class.properties}"
 
+println "text.class.metaClass.methods: ${text.metaClass.methods.size()} ${text.metaClass.methods}"
+
 
