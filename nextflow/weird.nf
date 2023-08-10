@@ -23,6 +23,10 @@ process weird {
     """
 }
 
+// this didn't work -- groovy source code not found (hidden by Nextflow?)
+def getCode(Closure c) {
+    c.metaClass.classNode.getDeclaredMethods("doCall")[0].code.text
+}
 
 workflow {
     
@@ -48,13 +52,17 @@ workflow {
     println weird.metaClass.methods.name
     println ""
 
-    println "weird.class.output: ${weird.output}"
-    println "weird.class.taskBody: ${weird.taskBody}"
-    println "weird.class.getName(): ${weird.getName()}"
-    println ""
-
     filestems = channel.of("foo", "bar")
     filestems | weird
+
+    println "weird.output: ${weird.output}"
+    println "weird.taskBody: ${weird.taskBody}"
+    println "weird.rawBody: ${weird.rawBody.toString()}"
+    println "weird.getName(): ${weird.getName()}"
+    println "weird.getDeclaredInputs(): ${weird.getDeclaredInputs()}"
+    weird.getDeclaredInputs().each { println "input: ${it.toString()}" }
+    println ""
+
 }
 
 
