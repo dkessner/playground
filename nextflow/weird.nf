@@ -26,23 +26,32 @@ process weird {
 
 workflow {
     
-    println "weird.class: ${weird.class}"
+    println "weird.class: ${weird.class}\n"
 
     println "weird.class.declaredMethods: ${weird.class.declaredMethods.size()}"
     println weird.class.declaredMethods.name
+    println ""
 
     println "weird.class.declaredFields: ${weird.class.declaredFields.size()}"
     println weird.class.declaredFields.name
+    println ""
 
     println "weird.class.properties: ${weird.class.properties.size()}"
-    println weird.class.properties
+    println weird.class.properties.keySet()
+    println ""
 
-    println "weird.class.metaClass.properties: ${weird.metaClass.properties.size()}"
-    println weird.class.metaClass.properties
+    println "weird.metaClass.properties: ${weird.metaClass.properties.size()}"
+    println weird.metaClass.properties.name
+    println ""
+
+    println "weird.class.metaClass.methods: ${weird.metaClass.methods.size()}"
+    println weird.metaClass.methods.name
+    println ""
 
     println "weird.class.output: ${weird.output}"
     println "weird.class.taskBody: ${weird.taskBody}"
     println "weird.class.getName(): ${weird.getName()}"
+    println ""
 
     filestems = channel.of("foo", "bar")
     filestems | weird
