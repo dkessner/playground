@@ -4,6 +4,7 @@
 
 // The binding object stores all variables that were defined without
 // specifying their types or using def keyword:
+// https://docs.groovy-lang.org/latest/html/api/groovy/lang/Binding.html
 // https://stackoverflow.com/questions/52839085/finding-list-map-of-free-variables-of-a-closure-in-groovy
 
 //
