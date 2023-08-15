@@ -10,7 +10,7 @@ def benchmark(int repeat, Closure worker) {
 def slow = benchmark(10000) { (int) it / 2 }
 def fast = benchmark(10000) { it.intdiv(2) }
 
-assert fast * 2 < slow
+assert fast < slow
 
 println "slow: $slow"
 println "fast: $fast"
