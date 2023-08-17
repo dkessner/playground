@@ -3,10 +3,16 @@
 //
 
 
-def double_string(s) {s+s}
 
+def moduleName() {
+    "MyModule"
+}
 
-process hello_process {
+def moduleVersion() {
+    "1.0"
+}
+
+process moduleProcess {
 
     publishDir "${params.outdir}/hello_process"
 
@@ -22,7 +28,6 @@ process hello_process {
 
     """
     echo "Hello, world! ${task.index}" > $output_filename
-    echo "${double_string(name + " ")}" >> $output_filename
     """
 }
 

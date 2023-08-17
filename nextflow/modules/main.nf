@@ -4,12 +4,14 @@
 // main.nf
 //
 
-include {hello_process as p; double_string as f} from './module'
+include { moduleName; moduleVersion; moduleProcess} from './module'
 
 workflow {
 
-    println f("Hello, modules! ")
+    println "Hello, modules!"
 
-    channel.of("foo", "bar") | p
+    println "Running module: ${moduleName()} v${moduleVersion()}"
+
+    channel.of("foo", "bar") | moduleProcess
 }
 
