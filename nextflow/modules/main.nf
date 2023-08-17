@@ -4,9 +4,12 @@
 // main.nf
 //
 
-include { hello_process } from './module'
+include {hello_process as p; double_string as f} from './module'
 
 workflow {
-    channel.of("foo", "bar") | hello_process
+
+    println f("Hello, modules! ")
+
+    channel.of("foo", "bar") | p
 }
 

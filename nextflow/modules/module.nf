@@ -2,9 +2,13 @@
 // module.nf
 //
 
+
+def double_string(s) {s+s}
+
+
 process hello_process {
 
-    publishDir "${params.outdir}/${task.process}"
+    publishDir "${params.outdir}/hello_process"
 
     input:
     val name
@@ -18,5 +22,7 @@ process hello_process {
 
     """
     echo "Hello, world! ${task.index}" > $output_filename
+    echo "${double_string(name + " ")}" >> $output_filename
     """
 }
+
