@@ -22,6 +22,7 @@ process doSomething {
 workflow {
     names = channel.of("foo", "bar")
     names | doSomething | view
+    // doSomething(names).view()
 }
 
 
