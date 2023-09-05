@@ -1,7 +1,7 @@
-#!/usr/bin/env RScript
+#!/usr/bin/env Rscript
 
 # https://bookdown.org/ndphillips/YaRrr/packages.html
-#install.package("yarrr")
+#install.packages("yarrr")
 
 print("before library()")
 library("yarrr")
