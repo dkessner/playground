@@ -16,9 +16,17 @@ ggplot(data = penguins,
   ) +
   scale_color_colorblind()
 
+ggsave(filename = "penguin-plot.png")
+
 
 # pipe notation
 
 penguins |> 
   ggplot(aes(x = flipper_length_mm, y = body_mass_g)) + 
   geom_point()
+
+ggsave(filename = "penguin-plot-2.png")
+
+
+# automatically writes Rplots.pdf with both plots?
+
