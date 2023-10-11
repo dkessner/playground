@@ -2,6 +2,10 @@
 
 [R for Data Science (2e) - Hadley Wickham](https://r4ds.hadley.nz/)  
 
+```
+install.packages("tidyverse")
+```
+
 [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
 [Tidy Modeling with R](https://www.tmwr.org/)  
