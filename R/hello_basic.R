@@ -6,6 +6,11 @@
 getwd()
 setwd("blah")
 
+installed.packages()
+
+
+# math
+
 log10(100)
 log10(1000)
 exp(1)
