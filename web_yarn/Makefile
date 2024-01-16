@@ -10,6 +10,7 @@ build_production:
 	yarn webpack --mode=production
 
 install:
+	corepack enable
 	yarn
 
 clean:
