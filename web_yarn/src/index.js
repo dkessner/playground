@@ -3,16 +3,15 @@
 //
 
 
-import _ from 'lodash';
+import { hello_world } from './functions.js';
 
 
 function component() {
   const element = document.createElement('div');
-
-  // Lodash is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
+  element.innerHTML = hello_world();
   return element;
 }
 
 document.body.appendChild(component());
+
+ 

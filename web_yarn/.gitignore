@@ -12,5 +12,5 @@
 #!.yarn/cache
 .pnp.*
 
-dist/main.js
+dist/*.js*
 
