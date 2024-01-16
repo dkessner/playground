@@ -1,0 +1,10 @@
+{
+  "name": "web_yarn",
+  "packageManager": "yarn@4.0.2",
+  "private": true,
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
