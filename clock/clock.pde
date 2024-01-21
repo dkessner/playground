@@ -3,6 +3,11 @@
 //
 
 
+import peasy.*;
+
+
+PeasyCam cam;
+
 PImage clock;
 
 int rowCount = 10;
@@ -13,25 +18,45 @@ Vertex[][] vertices;
 void setup()
 {
     size(800, 600, P3D);
+
+    cam = new PeasyCam(this, 100);
+    cam.rotateX(PI/4);
+    cam.rotateY(PI/4);
+
     clock = loadImage("clock.png");
 
 
     vertices = new Vertex[rowCount+1][columnCount+1];
 
-    int gridSize = 10;
+    int gridSize = 5;
 
     for (int i=0; i<=rowCount; i++)
     for (int j=0; j<=columnCount; j++)
     {
-        PVector position = new PVector(j*gridSize, i*gridSize, 0);
-        vertices[i][j] = new Vertex(position);
+        float x = j * gridSize - columnCount*gridSize/2;
+        float y = 0;
+        float z = i * gridSize - rowCount*gridSize/2;
+
+        vertices[i][j] = new Vertex(new PVector(x, y, z));
     }
 }
 
 
+void drawAxes()
+{
+    stroke(255, 0, 0);
+    line(-100, 0, 0, 100, 0, 0);
+    stroke(0, 255, 0);
+    line(0, -100, 0, 0, 100, 0);
+    stroke(0, 0, 255);
+    line(0, 0, -100, 0, 0, 100);
+}
+
 void draw()
 {
     background(0);
+
+    drawAxes();
 
     noStroke();
 
