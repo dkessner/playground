@@ -19,10 +19,8 @@ boolean melting = false;
 
 void initializeVertices()
 {
-    // create 2D array of Vertex objects
-
+    // create 2D array
     vertices = new Vertex[rowCount+1][columnCount+1];
-
 
     for (int i=0; i<=rowCount; i++)
     for (int j=0; j<=columnCount; j++)
@@ -50,7 +48,6 @@ void initializeVertices()
 
         vertices[i][j] = new Vertex(position, acceleration);
     }
-
 }
 
 
@@ -78,11 +75,8 @@ void drawAxes()
 }
 
 
-void draw()
+void drawClock()
 {
-    background(0);
-    drawAxes();
-
     noStroke();
     textureMode(NORMAL); 
 
@@ -100,13 +94,27 @@ void draw()
         }
         endShape();
     }
+}
 
+
+void updateVertices()
+{
     if (melting)
     {
       for (Vertex[] row : vertices)
       for (Vertex v : row)
         v.update();
     }
+}
+
+
+void draw()
+{
+    background(0);
+    drawAxes();
+
+    drawClock();
+    updateVertices();
 }
 
 
@@ -144,6 +152,5 @@ class Vertex
         velocity.add(acceleration);
     }
 }
-
 
 
