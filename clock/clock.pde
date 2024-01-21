@@ -7,7 +7,7 @@ PImage clock;
 void setup()
 {
     size(800, 600, P3D);
-    clock = loadImage("clock2.png");
+    clock = loadImage("clock.png");
 }
 
 void draw()
