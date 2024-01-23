@@ -19,6 +19,8 @@ boolean melting = false;
 
 void initializeVertices()
 {
+    noiseSeed(millis());
+
     // create 2D array
     vertices = new Vertex[rowCount+1][columnCount+1];
 
