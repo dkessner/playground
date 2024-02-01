@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from datetime import date
 from typing import Any, Dict, List, Optional, cast
 
@@ -22,7 +24,7 @@ from sapiopylib.rest.utils.ProtocolUtils import ELNStepFactory
 from sapiopylib.rest.utils.Protocols import ElnEntryStep, ElnExperimentProtocol
 from sapiopylib.rest.utils.recordmodel.RecordModelManager import RecordModelManager
 from waitress import serve
-
+from time import asctime, localtime
 
 class HelloWorldWebhookHandler(AbstractWebhookHandler):
     """
@@ -30,7 +32,7 @@ class HelloWorldWebhookHandler(AbstractWebhookHandler):
     """
 
     def run(self, context: SapioWebhookContext) -> SapioWebhookResult:
-        print("Hello World!")
+        print("Hello World! " + asctime(localtime()))
         return SapioWebhookResult(True)
 
 
@@ -666,7 +668,9 @@ app = WebhookServerFactory.configure_flask_app(app=None, config=config)
 # UNENCRYPTED! This should not be used in production. You should give the "app" a ssl_context or set up a reverse-proxy.
 
 # Dev Mode:
-# app.run(host="0.0.0.0", port=8090)
+app.run(host="0.0.0.0", port=8090, ssl_context='adhoc')
 
 # Production Mode
-serve(app, host="0.0.0.0", port=8090)
+#serve(app, host="0.0.0.0", port=8090)
+
+
