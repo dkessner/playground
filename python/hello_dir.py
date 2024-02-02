@@ -15,4 +15,12 @@ print()
 print("dir(A):", dir(A), sep='\n')
 print()
 
+# dir() returns the list of names in the global scope
+# globals() returns a dict: name -> function/class
+
+print("globals():", globals(), sep='\n')
+print()
+
+print("globals()['A']", globals()['A']) # the actual class A
+print()
 
