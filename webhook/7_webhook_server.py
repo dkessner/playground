@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from datetime import date
+from datetime import date, datetime
 from typing import Any, Dict, List, Optional, cast
 
 from sapiopylib.rest.DataMgmtService import DataMgmtServer
@@ -33,7 +33,41 @@ class HelloWorldWebhookHandler(AbstractWebhookHandler):
 
     def run(self, context: SapioWebhookContext) -> SapioWebhookResult:
         print("Hello World! " + asctime(localtime()))
+        print("The quick brown fox jumps over the lazy dog")
+        print(context)
+        print(dir(context))
+        print("data_record: ", context.data_record)
+        print("base_data_record: ", context.base_data_record)
+        print("field_map: ", context.field_map)
+        print("*****")
+
+        active_protocol: Optional[ElnExperimentProtocol] = context.active_protocol
+        print(active_protocol.get_name())
+
+        # Get the first entry which has records of type Sample
+        sample_step = active_protocol.get_first_step_of_type('Sample')
+        if sample_step is None:
+            print("No sample step!")
+            return SapioWebhookResult(True, display_text='There are no source sample table.')
+
+        source_sample_records: List[DataRecord] = sample_step.get_records()
+        source_sample_record_count = len(source_sample_records)
+        print("record count: ", source_sample_record_count) 
+        print("records: ", source_sample_records) 
+
+        for record in source_sample_records:
+            print(record.get_field_value("SampleId"))
+            print(record.get_field_value("RecordId"))
+            print(record.get_field_value("DateCreated"))
+            unix_time = int(record.get_field_value("DateCreated"))
+            print("unix_time:", unix_time)
+            #date_time = datetime.fromtimestamp(unix_time)
+            #print("year:", date_time.year)
+            #print("month:", date_time.month)
+            #print("day:", date_time.day)
+
         return SapioWebhookResult(True)
+
 
 
 class UserFeedbackHandler(AbstractWebhookHandler):
@@ -61,6 +95,8 @@ class UserFeedbackHandler(AbstractWebhookHandler):
                     msg = "=_= User didn't feel very good. The comment left was: " + str(comments)
 
                 print(msg)
+                print("comments: ", comments)
+
                 # Display text sent over will be a toastr on the web client in Sapio.
                 return SapioWebhookResult(True, client_callback_request=None, display_text=msg)
             else:

@@ -16,7 +16,9 @@ cd docs
 
 for class in sapiopylib.rest.WebhookService \
 sapiopylib.rest.DataMgmtService \
-sapiopylib.rest.pojo.webhook.WebhookContext 
+sapiopylib.rest.pojo.webhook.WebhookContext \
+sapiopylib.rest.utils.Protocols \
+sapiopylib.rest.pojo.DataRecord
 do
     echo $class
     python -m pydoc -w $class 
