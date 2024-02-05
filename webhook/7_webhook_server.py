@@ -60,7 +60,13 @@ class HelloWorldWebhookHandler(AbstractWebhookHandler):
             print(record.get_field_value("RecordId"))
             print(record.get_field_value("DateCreated"))
             unix_time = int(record.get_field_value("DateCreated"))
-            print("unix_time:", unix_time)
+            print("unix_time:", unix_time) # ms
+            time_struct = localtime(unix_time/1000)
+            print(time_struct)
+            year = time_struct.tm_year
+            month = time_struct.tm_mon
+            day = time_struct.tm_mday
+            print(year, month, day)
             #date_time = datetime.fromtimestamp(unix_time)
             #print("year:", date_time.year)
             #print("month:", date_time.month)
