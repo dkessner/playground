@@ -66,13 +66,6 @@ fn list functions myapp
 docker images | grep foobar
 ```
 
-List stuff
-```console
-fn list apps
-fn list functions myapp
-docker images | grep foobar
-```
-
 Invoke the function
 ```console
 fn invoke myapp myfunc
