@@ -14,6 +14,9 @@ embedding_1= model.encode(base_sentence, convert_to_tensor=True)
 
 for sentence in sentences:
     embedding_2 = model.encode(sentence, convert_to_tensor=True)
-    print(sentence, util.pytorch_cos_sim(embedding_1, embedding_2))
+    result = util.pytorch_cos_sim(embedding_1, embedding_2)
+    value = result.item()
+    print(sentence, value)
+
 
 
