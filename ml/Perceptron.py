@@ -57,7 +57,7 @@ def read_data():
     return X, y
 
 
-def plot_data(X, y):
+def plot_data(X, y, p):
 
     plt.scatter(X[:50, 0], X[:50, 1], \
         color='red', marker='o', label='Setosa')
@@ -68,6 +68,12 @@ def plot_data(X, y):
     plt.xlabel('Sepal length [cm]')
     plt.ylabel('Petal length [cm]')
     plt.legend(loc='upper left')
+
+    # draw decision boundary line
+    b = -p.b_ / p.w_[1]
+    m = -p.w_[0] / p.w_[1]
+    plt.axline((0,b), (7, m*7+b))
+
     plt.savefig('scatter.png')
 
 
@@ -75,12 +81,13 @@ def plot_data(X, y):
 
 def main():
     X, y = read_data()
-    #plot_data(X, y)
+    #print("X:", X)
+    #print("y:", y)
 
     p = Perceptron(X.shape[1])
     p.fit(X, y)
 
-
+    plot_data(X, y, p)
 
 if __name__ == '__main__':
     main()
