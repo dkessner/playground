@@ -72,6 +72,8 @@ def plot_data(X, y, p):
     # draw decision boundary line
     b = -p.b_ / p.w_[1]
     m = -p.w_[0] / p.w_[1]
+    print("m:", m)
+    print("b:", b)
     plt.axline((0,b), (7, m*7+b))
 
     plt.savefig('scatter.png')
