@@ -1,9 +1,31 @@
 #!/usr/bin/env python
 
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
+
+class MyPerceptron:
+
+    def __init__(self):
+        self.eta = .01
+        self.iteration_count = 3
+
+        generator = np.random.RandomState(1)
+        self.w = generator.normal(loc=0, scale=.01, size=3)
+
+    def forward(self, X):
+        o = np.ones((len(X),1))
+        self.X1 = np.hstack((X,o))
+        print("X1:", self.X1)
+        self.y = np.dot(self.X1, self.w)
+        print("y:", self.y)
+
+    def __str__(self):
+        return "MyPerceptron w: " + str(self.w)
+ 
 
 def read_data():
 
@@ -35,8 +57,8 @@ def plot_data(X, y, p):
 
     if p is not None:
         # draw decision boundary line
-        b = -p.b_ / p.w_[1]
-        m = -p.w_[0] / p.w_[1]
+        b = -p.w[0] / p.w[2]
+        m = -p.w[1] / p.w[2]
         print("m:", m)
         print("b:", b)
         plt.axline((0,b), (7, m*7+b))
@@ -46,7 +68,13 @@ def plot_data(X, y, p):
 
 def main():
     X, y = read_data()
-    plot_data(X, y, None)
+
+    p = MyPerceptron()
+    print(p)
+
+    p.forward(X)
+
+    plot_data(X, y, p)
 
 
 if __name__ == '__main__':
