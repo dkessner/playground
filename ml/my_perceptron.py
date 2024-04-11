@@ -10,18 +10,29 @@ import matplotlib.pyplot as plt
 class MyPerceptron:
 
     def __init__(self):
-        self.eta = .01
-        self.iteration_count = 3
+        self.eta = .0001
+        self.iteration_count = 300
 
-        generator = np.random.RandomState(1)
+        generator = np.random.RandomState(5)
         self.w = generator.normal(loc=0, scale=.01, size=3)
 
     def forward(self, X):
         o = np.ones((len(X),1))
         self.X1 = np.hstack((X,o))
-        print("X1:", self.X1)
+        #print("X1:", self.X1)
         self.y = np.dot(self.X1, self.w)
-        print("y:", self.y)
+        #print("y:", self.y)
+
+    def update(self, y):
+        x0 = self.X1[..., 0]
+        x1 = self.X1[..., 1]
+        x2 = self.X1[..., 2]
+        dy = y - self.y
+        dw0 = (x0*dy).sum() * self.eta
+        dw1 = (x1*dy).sum() * self.eta
+        dw2 = (x2*dy).sum() * self.eta
+        print([dw0, dw1, dw2])
+        self.w += [dw0, dw1, dw2]
 
     def __str__(self):
         return "MyPerceptron w: " + str(self.w)
@@ -57,8 +68,8 @@ def plot_data(X, y, p):
 
     if p is not None:
         # draw decision boundary line
-        b = -p.w[0] / p.w[2]
-        m = -p.w[1] / p.w[2]
+        b = -p.w[2] / p.w[1]
+        m = -p.w[0] / p.w[1]
         print("m:", m)
         print("b:", b)
         plt.axline((0,b), (7, m*7+b))
@@ -70,9 +81,11 @@ def main():
     X, y = read_data()
 
     p = MyPerceptron()
-    print(p)
 
-    p.forward(X)
+    for i in range(p.iteration_count):
+        print(p)
+        p.forward(X)
+        p.update(y)
 
     plot_data(X, y, p)
 
