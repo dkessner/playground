@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+#
+# my_perceptron.py
+#
 
 
 import numpy as np
@@ -6,35 +9,43 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-
 class MyPerceptron:
 
     def __init__(self):
         self.eta = .0001
-        self.iteration_count = 4000
-
-        generator = np.random.RandomState(5)
+        self.iteration_count = 400
+        generator = np.random.RandomState(1)
         self.w = generator.normal(loc=0, scale=.01, size=3)
 
     def forward(self, X):
         o = np.ones((len(X),1))
         self.X1 = np.hstack((o,X))
-        #print("X1:", self.X1)
         self.y = np.dot(self.X1, self.w)
+        #print("X1:", self.X1)
         #print("y:", self.y)
 
     def update(self, y):
-        x0 = self.X1[..., 0]
-        x1 = self.X1[..., 1]
-        x2 = self.X1[..., 2]
         dy = y - self.y
-        dy2 = np.linalg.norm(dy,2)
-        print("dy2:", dy2)
-        dw0 = (x0*dy).sum() * self.eta
-        dw1 = (x1*dy).sum() * self.eta
-        dw2 = (x2*dy).sum() * self.eta
-        print([dw0, dw1, dw2])
-        self.w += [dw0, dw1, dw2]
+        dw = (self.X1.T * dy).sum(1)
+        dw *= self.eta
+        self.w += dw
+
+        #dy2 = np.linalg.norm(dy,2)
+        #print("dy2:", dy2)
+        #print("dw:", dw)
+
+        # first draft (unvectorized)
+        #x0 = self.X1[..., 0]
+        #x1 = self.X1[..., 1]
+        #x2 = self.X1[..., 2]
+        #dy = y - self.y
+        #dy2 = np.linalg.norm(dy,2)
+        #print("dy2:", dy2)
+        #dw0 = (x0*dy).sum() * self.eta
+        #dw1 = (x1*dy).sum() * self.eta
+        #dw2 = (x2*dy).sum() * self.eta
+        #print([dw0, dw1, dw2])
+        #self.w += [dw0, dw1, dw2]
 
     def __str__(self):
         return "MyPerceptron w: " + str(self.w)
@@ -70,31 +81,30 @@ def plot_data(X, y, p):
 
     if p is not None:
         # draw decision boundary line
-        # b = -p.b_ / p.w_[1]
-        # m = -p.w_[0] / p.w_[1]
-        threshold = .7
-        b = threshold-p.w[0] / p.w[2]
+        # prediction w dot x =
+        #    w0 + w1x1 + w2x2 > threshold
+        threshold = .3
+        b = (threshold-p.w[0]) / p.w[2]
         m = -p.w[1] / p.w[2]
         print("m:", m)
         print("b:", b)
         plt.axline((0,b), (7, m*7+b))
 
-    plt.savefig('blah.png')
+    plt.savefig('scatter_my_perceptron.png')
 
 
 def main():
     X, y = read_data()
+    print("y:", y)
 
     p = MyPerceptron()
 
+    print(str(p.iteration_count) + " iterations")
     for i in range(p.iteration_count):
-    #for i in range(1):
-        print(p)
         p.forward(X)
         p.update(y)
 
-    print("y:", y)
-    print("p.y:", p.y)
+    print("p.y (prediction):", p.y)
 
     plot_data(X, y, p)
 
