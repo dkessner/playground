@@ -13,7 +13,6 @@ class MyPerceptron:
 
     def __init__(self):
         self.eta = .0001
-        self.iteration_count = 400
         generator = np.random.RandomState(1)
         self.w = generator.normal(loc=0, scale=.01, size=3)
 
@@ -46,6 +45,18 @@ class MyPerceptron:
         #dw2 = (x2*dy).sum() * self.eta
         #print([dw0, dw1, dw2])
         #self.w += [dw0, dw1, dw2]
+
+    def evaluate(self, y):
+        dy = y - self.y
+        dy2 = np.linalg.norm(dy,2)
+        threshold = .5
+        predictions = (self.y > threshold)*1
+        correct_count = (predictions == y).sum()
+        correct_fraction = correct_count / len(y)
+        print("predictions:", self.y, predictions)
+        print("correct:", correct_fraction)
+        print("dy2:", dy2)
+
 
     def __str__(self):
         return "MyPerceptron w: " + str(self.w)
@@ -99,12 +110,12 @@ def main():
 
     p = MyPerceptron()
 
-    print(str(p.iteration_count) + " iterations")
-    for i in range(p.iteration_count):
+    iteration_count = 800
+    for i in range(iteration_count):
+        print("****\nIteration", i)
         p.forward(X)
         p.update(y)
-
-    print("p.y (prediction):", p.y)
+        p.evaluate(y)
 
     plot_data(X, y, p)
 
