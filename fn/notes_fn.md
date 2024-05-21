@@ -12,6 +12,7 @@ brew update && brew install fn
 Start Fn server:
 ```console
 fn start
+fn start --log-level DEBUG
 ```
 
 Check that Fn server is running:
@@ -90,6 +91,20 @@ Invoke with `curl`
 ```console
 curl -X "POST" -H "Content-Type: application/json" -d '{"name":"Bob"}' http://url_name
 ```
+
+
+## OCI stuff
+
+Oracle Functions & tags
+https://blogs.oracle.com/cloud-infrastructure/post/working-with-oracle-functions-and-tag-defaults
+
+Creating Functions from Existing Docker Images
+https://docs.oracle.com/en-us/iaas/Content/Functions/Tasks/functionscreatingfunctions.htm
+
+
+
+
+
 
 
 
