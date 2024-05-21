@@ -101,11 +101,32 @@ https://blogs.oracle.com/cloud-infrastructure/post/working-with-oracle-functions
 Creating Functions from Existing Docker Images
 https://docs.oracle.com/en-us/iaas/Content/Functions/Tasks/functionscreatingfunctions.htm
 
+(Mac) Install `oci-cli` with Homebrew 
+```
+brew install oci-cli
+```
+
+Oracle CLI Getting Started
+https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/gettingstartedwiththeCLI.htm#GettingStartedwiththeCommandLineInterface
 
 
+```
+oci os ns get
+oci iam compartment list -c <tenancy_id>
+```
 
+Use oci cli fn application create
+```
+#oci fn application create -c ocid1.compartment.oc1..3nkmscz63iyndbvpdnl7bykk37jqmf43ahymba --display-name helloworld-java-app --subnet-ids '["ocid1.subnet.oc1.ca-montreal-1.dy5hdvgtgrhsxchuvgkbqqxd4rqz4oeuknkkgba"]' --defined-tags '{"OracleInternalReserved": {"CostCenter": "8675309"}}'
+oci fn application create -c ocid1.compartment.oc1..3nkmscz63iyndbvpdnl7bykk37jqmf43ahymba --display-name helloworld-java-app --subnet-ids '["ocid1.subnet.oc1.ca-montreal-1.dy5hdvgtgrhsxchuvgkbqqxd4rqz4oeuknkkgba"]' --defined-tags '{"OracleInternalReserved": {"CostCenter": "8675309"}}'
+```
 
+Cost_Tagging .  Project_Key : Labs_Ops
 
+what compartment?
+
+error on Functions function page (e.g. hello6):
+Compartment: Error fetching data
 
 
 
