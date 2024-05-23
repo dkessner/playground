@@ -112,6 +112,7 @@ https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/gettingstartedwiththeCLI.ht
 
 ```
 oci os ns get
+oci iam compartment list 
 oci iam compartment list -c <tenancy_id>
 ```
 
@@ -127,6 +128,9 @@ what compartment?
 
 error on Functions function page (e.g. hello6):
 Compartment: Error fetching data
-
+```
+fn build
+fn push
+```
 
 
