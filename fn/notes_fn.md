@@ -116,6 +116,7 @@ oci iam compartment list
 oci iam compartment list -c <tenancy_id>
 ```
 
+
 Use oci cli fn application create
 ```
 #oci fn application create -c ocid1.compartment.oc1..3nkmscz63iyndbvpdnl7bykk37jqmf43ahymba --display-name helloworld-java-app --subnet-ids '["ocid1.subnet.oc1.ca-montreal-1.dy5hdvgtgrhsxchuvgkbqqxd4rqz4oeuknkkgba"]' --defined-tags '{"OracleInternalReserved": {"CostCenter": "8675309"}}'
@@ -132,5 +133,21 @@ Compartment: Error fetching data
 fn build
 fn push
 ```
+
+```
+oci artifacts container repository list 
+```
+
+https://docs.oracle.com/en-us/iaas/Content/Registry/Tasks/registrypushingimagesusingthedockercli.htm
+
+https://id3f7enhycq.us-phoenix-1.functions.oci.oraclecloud.com/20181201/functions/ocid1.fnfunc.oc1.phx.aaaaaaaa3jxqlzbzieyljukqxswxadwnufxei5277qxphilfzfjinwxw7guq/actions/invoke
+
+```
+fn update context oracle.profile DEFAULT
+fn list apps
+fn invoke helloworld-java-app
+```
+
+https://docs.oracle.com/en-us/iaas/Content/Functions/Tasks/functionstroubleshooting_topic-Issues-invoking-functions.htm#imagenotavailable
 
 
