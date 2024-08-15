@@ -3,3 +3,5 @@ torch
 sentencepiece
 sacremoses
 sentence-transformers
+huggingface_hub
+accelerate
