@@ -4,4 +4,7 @@ sentencepiece
 sacremoses
 sentence-transformers
 huggingface_hub
+datasets
+tokenizers
 accelerate
+matplotlib
