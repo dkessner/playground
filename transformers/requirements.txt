@@ -8,3 +8,4 @@ datasets
 tokenizers
 accelerate
 matplotlib
+umap-learn
