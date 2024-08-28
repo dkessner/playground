@@ -59,6 +59,8 @@ y_train = np.array(emotions_hidden["train"]["label"])
 y_valid = np.array(emotions_hidden["validation"]["label"])
 print(X_train.shape, X_valid.shape)
 
+# visualization
+
 from umap import UMAP
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
@@ -87,5 +89,32 @@ for i, (label, cmap) in enumerate(zip(labels, cmaps)):
 
 plt.tight_layout()
 plt.show()
+
+# classification
+
+from sklearn.linear_model import LogisticRegression
+
+lr_clf = LogisticRegression(max_iter=3000)
+lr_clf.fit(X_train, y_train)
+print("lr:", lr_clf.score(X_valid, y_valid))
+
+from sklearn.dummy import DummyClassifier
+
+dummy_clf = DummyClassifier(strategy="most_frequent")
+dummy_clf.fit(X_train, y_train)
+print("dummy", dummy_clf.score(X_valid, y_valid))
+
+from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
+
+def plot_confusion_matrix(y_preds, y_true, labels):
+    cm = confusion_matrix(y_true, y_preds, normalize="true")
+    fig, ax, = plt.subplots(figsize=(6,6))
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels)
+    disp.plot(cmap="Blues", values_format=".2f", ax=ax, colorbar=False)
+    plt.title("Normalize confusion matrix")
+    plt.show()
+
+y_preds = lr_clf.predict(X_valid)
+plot_confusion_matrix(y_preds, y_valid, labels)
 
 
