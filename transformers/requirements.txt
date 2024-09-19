@@ -9,6 +9,7 @@ tokenizers
 accelerate
 matplotlib
 umap-learn
+# ch 3
 bertviz
 ipython
 jupyterlab
