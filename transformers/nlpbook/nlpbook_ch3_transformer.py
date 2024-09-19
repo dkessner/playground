@@ -155,4 +155,49 @@ encoded = encoder_layer(inputs_embeds)
 print("encoded.size():", encoded.size())
 
 
+## positional embeddings
+
+class Embeddings(nn.Module):
+    def __init__(self, config):
+        super().__init__()
+        self.token_embeddings = nn.Embedding(config.vocab_size,
+                                             config.hidden_size)
+        self.position_embeddings = nn.Embedding(config.max_position_embeddings,
+                                                config.hidden_size)
+        self.layer_norm = nn.LayerNorm(config.hidden_size, eps=1e-12)
+        self.dropout = nn.Dropout()
+
+    def forward(self, input_ids):
+        seq_length = input_ids.size(1)
+        position_ids = torch.arange(seq_length, dtype=torch.long).unsqueeze(0)
+        token_embeddings = self.token_embeddings(input_ids)
+        position_embeddings = self.position_embeddings(position_ids)
+        embeddings = token_embeddings + position_embeddings
+        embeddings = self.layer_norm(embeddings)
+        embeddings = self.dropout(embeddings)
+        return embeddings
+
+embedding_layer = Embeddings(config)
+print("embedding_layer output size:", embedding_layer(inputs.input_ids).size())
+
+
+## transformer encoder
+
+class TransformerEncoder(nn.Module):
+    def __init__(self, config):
+        super().__init__()
+        self.embeddings = Embeddings(config)
+        self.layers = nn.ModuleList([TransformerEncoderLayer(config) 
+                                     for _ in range(config.num_hidden_layers)])
+    def forward(self, x):
+        x = self.embeddings(x)
+        for layer in self.layers:
+            x = layer(x)
+        return x
+
+
+encoder = TransformerEncoder(config)
+encoded = encoder(inputs.input_ids)
+print("encoded.size():", encoded.size())
+
 
