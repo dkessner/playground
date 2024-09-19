@@ -134,3 +134,25 @@ ff_outputs = feed_forward(attn_outputs)
 print("ff_outputs.size():", ff_outputs.size())
 
 
+## layer normalization
+
+class TransformerEncoderLayer(nn.Module):
+    def __init__(self, config):
+        super().__init__()
+        self.layer_norm_1 = nn.LayerNorm(config.hidden_size)
+        self.layer_norm_2 = nn.LayerNorm(config.hidden_size)
+        self.attention = MultiHeadAttention(config)
+        self.feed_forward = FeedForward(config)
+
+    def forward(self, x):
+        x = x + self.attention(self.layer_norm_1(x)) # attention + skip connection
+        x = x + self.feed_forward(self.layer_norm_2(x)) # feed forward + skip connection
+        return x
+
+
+encoder_layer = TransformerEncoderLayer(config)
+encoded = encoder_layer(inputs_embeds)
+print("encoded.size():", encoded.size())
+
+
+
