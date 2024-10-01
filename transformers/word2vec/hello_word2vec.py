@@ -6,6 +6,7 @@
 
 import gensim
 import gensim.downloader
+from sklearn.metrics.pairwise import cosine_similarity
 
 
 def get_models():
@@ -31,13 +32,35 @@ vectors = [model[w] for w in sentence if w in model]
 #    print(word, vector, "\n")
 
 
+
+sentence.append("king-queen")
+vectors.append(model["king"] - model["queen"])
+
+sentence.append("man-woman")
+vectors.append(model["man"] - model["woman"])
+
+
 with open('vectors.txt','w') as f:
-    for word in sentence:
-        f.write('\t'.join(str(v) for v in model[word]) + '\n')
+    for vector in vectors:
+        f.write('\t'.join(str(v) for v in vector) + '\n')
         
 with open('metadata.txt','w') as f:
     for word in sentence:
         f.write(word + '\n')
+
+
+
+## explore
+
+v_king = model["king"]
+v_queen = model["queen"]
+v_man = model["man"]
+v_woman = model["woman"]
+
+test = v_king - v_man + v_woman
+
+print(cosine_similarity(test, v_queen))
+
 
 
 
