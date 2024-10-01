@@ -9,3 +9,4 @@ tokenizers
 accelerate
 matplotlib
 umap-learn
+PyQt6

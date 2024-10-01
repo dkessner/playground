@@ -1,0 +1,31 @@
+
+
+TF projector
+https://projector.tensorflow.org/
+
+https://medium.com/@ankiit/word2vec-vs-bert-d04ab3ade4c9
+
+# get vocabulary from a pre trained word2vec model
+vocab = []
+for word in w2v_model.wv.vocab:
+    vocab.append(word)
+# Write tab separated vectors to text files for 
+# tensorflow's embedding projector
+with open('vectors.txt','w') as f:
+    for i in vocab:
+        vec = model[i]
+        f.write('\t'.join(str(v) for v in vec) + '\n')
+        
+with open('metadata.txt','w') as f:
+    for i in vocab:
+        f.write(i + '\n')
+
+
+
+
+https://mccormickml.com/2016/04/12/googles-pretrained-word2vec-model-in-python/
+
+https://radimrehurek.com/gensim/models/word2vec.html
+
+https://stats.stackexchange.com/questions/267169/how-to-use-pre-trained-word2vec-model
+
