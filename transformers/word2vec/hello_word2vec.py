@@ -6,7 +6,7 @@
 
 import gensim
 import gensim.downloader
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
 
 
 def get_models():
@@ -17,14 +17,16 @@ def get_models():
 
 # word2vec-google-news-300
 
-model = gensim.downloader.load('word2vec-google-news-300')
+model_name = 'word2vec-google-news-300'
+print("loading model:", model_name)
+model = gensim.downloader.load(model_name)
 
 #model = gensim.models.Word2Vec.load_word2vec_format('path-to-vectors.txt', binary=False)
 
 # if you vector file is in binary format, change to binary=True
 #sentence = ["London", "is", "the", "capital", "of", "Great", "Britain"]
 
-sentence = "king queen man woman".split()
+sentence = "boy girl man woman".split()
 vectors = [model[w] for w in sentence if w in model]
 
 
@@ -32,9 +34,8 @@ vectors = [model[w] for w in sentence if w in model]
 #    print(word, vector, "\n")
 
 
-
-sentence.append("king-queen")
-vectors.append(model["king"] - model["queen"])
+sentence.append("boy-girl")
+vectors.append(model["boy"] - model["girl"])
 
 sentence.append("man-woman")
 vectors.append(model["man"] - model["woman"])
@@ -52,14 +53,20 @@ with open('metadata.txt','w') as f:
 
 ## explore
 
-v_king = model["king"]
-v_queen = model["queen"]
+v_boy = model["boy"]
+v_girl = model["girl"]
 v_man = model["man"]
 v_woman = model["woman"]
 
-test = v_king - v_man + v_woman
+test = v_man - v_boy + v_girl
+vectors.append(test)
 
-print(cosine_similarity(test, v_queen))
+similarities = cosine_similarity(vectors)
+distances = euclidean_distances(vectors)
+
+print("similarities:\n", similarities, sep='')
+print("distances:\n", distances, sep='')
+
 
 
 
