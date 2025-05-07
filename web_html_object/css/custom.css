@@ -1,0 +1,29 @@
+/*
+ * custom.css
+ */
+
+
+:root {
+  color-scheme: dark;
+  --bg: #cd825a; /*orange 205, 130, 90*/
+  --accent-bg: #cd825a; /*orange 205, 130, 90*/
+  --text: #fff;
+  --text-light: #fff;
+  --border: #5aa5cd; /* complement to orange */
+  --accent: #fff;
+  --accent-hover: #fff;
+  --accent-text: var(--bg);
+  --code: #f06292;
+  --preformatted: #ccc;
+  --disabled: #111;
+}
+
+
+#sketch-holder {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
