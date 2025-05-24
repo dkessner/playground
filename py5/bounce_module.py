@@ -39,8 +39,8 @@ balls = []
 
 
 def settings():
-    #py5.full_screen()
-    py5.size(800, 800)
+    py5.full_screen()
+    #py5.size(800, 800)
 
 def setup():
     balls.append(Ball())
