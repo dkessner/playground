@@ -1,0 +1,6 @@
+mlx-lm
+setuptools
+wheel
+Cmake
+protobuf
+sentencepiece
