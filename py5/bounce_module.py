@@ -38,11 +38,9 @@ class Ball:
 balls = []
 
 
-def settings():
-    py5.full_screen()
-    #py5.size(800, 800)
-
 def setup():
+    py5.size(800, 800)
+    #py5.full_screen()
     balls.append(Ball())
 
 def draw():

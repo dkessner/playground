@@ -36,42 +36,42 @@ class Ball:
             self.velocity.y *= -1
 
 
+#ball = None
 
-#class Bounce(Sketch):
+class Bounce(Sketch):
+
+    def settings(self):
+        #self.full_screen()
+        self.size(800, 800)
+
+    def setup(self):
+        self.ball = Ball()
+
+    def draw(self):
+        self.background(0)
+        self.ball.display()
+
+
+bounce = Bounce()
+bounce.run_sketch()
 #
-#    def settings(self):
-#        #self.full_screen()
-#        self.size(800, 800)
+
+
+#balls = []
+
+
+#def setup():
+    #py5.full_screen()
+#    py5.size(800, 800)
+#    balls.append(Ball())
+
+#def draw():
+#    py5.background(0)
+#    for b in balls:
+#        b.display()
 #
-#    def setup(self):
-#        self.ball = Ball(self)
-#
-#    def draw(self):
-#        self.background(0)
-#        self.ball.display()
+#def key_pressed():
+#    balls.append(Ball())
 
-
-#bounce = Bounce()
-#bounce.run_sketch()
-#
-
-
-balls = []
-
-def settings():
-    py5.full_screen()
-    #py5.size(800, 800)
-
-def setup():
-    balls.append(Ball())
-
-def draw():
-    py5.background(0)
-    for b in balls:
-        b.display()
-
-def key_pressed():
-    balls.append(Ball())
-
-py5.run_sketch()
+#py5.run_sketch()
 
