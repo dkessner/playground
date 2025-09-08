@@ -5,6 +5,9 @@
 
 [https://simonwillison.net/2025/Feb/15/llm-mlx/](https://simonwillison.net/2025/Feb/15/llm-mlx/)
 
+[https://kconner.com/2025/02/17/running-local-llms-with-mlx.html](https://kconner.com/2025/02/17/running-local-llms-with-mlx.html)
+
+[https://www.reddit.com/r/LocalLLaMA/comments/1fp00jy/apple_m_aider_mlx_local_server/](https://www.reddit.com/r/LocalLLaMA/comments/1fp00jy/apple_m_aider_mlx_local_server/)
 
 ## Installation
 
