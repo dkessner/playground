@@ -80,3 +80,11 @@ llm mlx download-model mlx-community/Qwen3-Coder-30B-A3B-Instruct-4bit-dwq-v2
 llm mlx download-model mlx-community/Mistral-Small-24B-Instruct-2501-4bit
 ```
 
+
+`.aider.model.settings.yml`
+```
+- name: openai/mlx-community/Qwen2.5-0.5B-Instruct-4bit
+  extra_params:
+    max_tokens: 8192
+```
+
