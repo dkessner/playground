@@ -9,6 +9,8 @@
 
 [https://www.reddit.com/r/LocalLLaMA/comments/1fp00jy/apple_m_aider_mlx_local_server/](https://www.reddit.com/r/LocalLLaMA/comments/1fp00jy/apple_m_aider_mlx_local_server/)
 
+[https://blog.6nok.org/experimenting-with-local-llms-on-macos/](https://blog.6nok.org/experimenting-with-local-llms-on-macos/)
+
 ## Installation
 
 
