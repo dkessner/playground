@@ -36,7 +36,7 @@ llm -m l32 'a joke about a haggis buying a car'
 ```
 
 
-## Explore
+## Explore aider
 
 
 Qwen
@@ -45,11 +45,22 @@ llm mlx download-model mlx-community/Qwen2.5-0.5B-Instruct-4bit
 llm -m mlx-community/Qwen2.5-0.5B-Instruct-4bit 'Python code to traverse a tree, briefly'
 ```
 
-
 Run server + aider
 ```
 mlx_lm.server --model mlx-community/Qwen2.5-0.5B-Instruct-4bit --log-level DEBUG
 aider --openai-api-base http://localhost:8080/v1/ --openai-api-key secret --model openai/mlx-community/Qwen2.5-0.5B-Instruct-4bit
+```
+
+
+## Explore llm tool 
+
+Large download
+```
+llm mlx download-model mlx-community/gemma-3-27b-it-8bit
+```
+
+```
+llm -m mlx-community/gemma-3-27b-it-8bit 'describe this image' -a https://static.simonwillison.net/static/2024/pelicans.jpg
 ```
 
 
