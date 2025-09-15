@@ -14,15 +14,16 @@ from math import *
 
 class Ball:
 
-    def __init__(self):
-        self.s = py5.get_current_sketch()
+    def __init__(self, sIn):
+        #self.s = py5.get_current_sketch() # does not appear to work (!)
+        self.s = sIn
         self.radius = self.s.random(10, 30)
         self.position = Py5Vector(self.s.width/2, self.s.height/2)
         self.velocity = Py5Vector.from_heading(self.s.random(0, 2*pi)) * self.s.random(3, 5)
-        self.color = self.s.color(self.s.random(255), self.s.random(255), self.s.random(255))
+        self.c = self.s.color(self.s.random(255), self.s.random(255), self.s.random(255))
 
     def display(self):
-        self.s.fill(self.color)
+        self.s.fill(self.c)
         self.s.ellipse(self.position.x, self.position.y, self.radius*2, self.radius*2)
 
         self.position += self.velocity
@@ -36,42 +37,27 @@ class Ball:
             self.velocity.y *= -1
 
 
-#ball = None
 
 class Bounce(Sketch):
 
     def settings(self):
-        #self.full_screen()
+        #self.full_screen() # error abort (!)
         self.size(800, 800)
 
     def setup(self):
-        self.ball = Ball()
+        self.balls = []
 
     def draw(self):
         self.background(0)
-        self.ball.display()
+        for b in self.balls:
+            b.display()
+
+    def key_pressed(self):
+        self.balls.append(Ball(self))
 
 
 bounce = Bounce()
 bounce.run_sketch()
-#
 
 
-#balls = []
-
-
-#def setup():
-    #py5.full_screen()
-#    py5.size(800, 800)
-#    balls.append(Ball())
-
-#def draw():
-#    py5.background(0)
-#    for b in balls:
-#        b.display()
-#
-#def key_pressed():
-#    balls.append(Ball())
-
-#py5.run_sketch()
 
