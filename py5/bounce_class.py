@@ -20,21 +20,26 @@ class Ball:
         self.radius = self.s.random(10, 30)
         self.position = Py5Vector(self.s.width/2, self.s.height/2)
         self.velocity = Py5Vector.from_heading(self.s.random(0, 2*pi)) * self.s.random(3, 5)
-        self.c = self.s.color(self.s.random(255), self.s.random(255), self.s.random(255))
+        self.color = self.s.color(self.s.random(255), self.s.random(255), self.s.random(255))
 
     def display(self):
-        self.s.fill(self.c)
-        self.s.ellipse(self.position.x, self.position.y, self.radius*2, self.radius*2)
+        s = self.s
+        position = self.position
+        velocity = self.velocity
+        radius = self.radius
 
-        self.position += self.velocity
+        s.fill(self.color)
+        s.ellipse(position.x, position.y, radius*2, radius*2)
 
-        if self.position.x < self.radius or \
-           self.position.x > self.s.width - self.radius:
-            self.velocity.x *= -1
+        position += velocity
 
-        if self.position.y < self.radius or \
-           self.position.y > self.s.height - self.radius:
-            self.velocity.y *= -1
+        if position.x < radius or \
+           position.x > s.width - radius:
+            velocity.x *= -1
+
+        if position.y < radius or \
+           position.y > s.height - radius:
+            velocity.y *= -1
 
 
 

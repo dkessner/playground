@@ -21,18 +21,22 @@ class Ball:
         self.color = py5.color(py5.random(255), py5.random(255), py5.random(255))
 
     def display(self):
+        position = self.position
+        velocity = self.velocity
+        radius = self.radius
+
         py5.fill(self.color)
-        py5.ellipse(self.position.x, self.position.y, self.radius*2, self.radius*2)
+        py5.ellipse(position.x, position.y, radius*2, radius*2)
 
-        self.position += self.velocity
+        position += velocity
 
-        if self.position.x < self.radius or \
-           self.position.x > py5.width - self.radius:
-            self.velocity.x *= -1
+        if position.x < radius or \
+           position.x > py5.width - radius:
+            velocity.x *= -1
 
-        if self.position.y < self.radius or \
-           self.position.y > py5.height - self.radius:
-            self.velocity.y *= -1
+        if position.y < radius or \
+           position.y > py5.height - radius:
+            velocity.y *= -1
 
 
 balls = []
