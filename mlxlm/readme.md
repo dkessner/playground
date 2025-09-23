@@ -2,10 +2,13 @@
 
 
 
-## Links
+## Reference
 
+[mlx-lm docs](https://qwen.readthedocs.io/en/latest/run_locally/mlx-lm.html)
 
 [mlx-lm GitHub repo](https://github.com/ml-explore/mlx-lm)
+
+## Links
 
 [Simon Willison Space Invaders](https://simonwillison.net/2025/Jul/29/space-invaders/)
 
